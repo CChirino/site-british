@@ -1,0 +1,173 @@
+#root {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("/src/assets/fonts/Rubik-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("/src/assets/fonts/Rubik-Medium.ttf") format("truetype");
+  font-weight: 500; /* Grosor medio */
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("/src/assets/fonts/Rubik-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500; /* Grosor medio */
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+  font-weight: normal;
+}
+
+.logo {
+  height: 10em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.clouds{
+  width: 25%;
+}
+
+.small-clouds{
+  width: 5%;
+}
+.home-images{
+  width: 77%;
+  height: 100%;
+}
+.hovered-images{
+  width: 83%;
+  height: 100%;
+}
+.title-home{
+  font-size: 140px;
+  font-weight: 100;
+}
+
+.background-container-city {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("/src/assets/image/EVA-01.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.background-container-carlos {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("/src/assets/image/EVA-03.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.background-container-arte {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("/src/assets/image/EVA-04.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.background-container-eva {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url("/src/assets/image/EVA-05.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.text-container {
+  position: absolute;
+  top: 56%;
+  left: 25%;
+  right: 30%;
+  transform: translate(-50%, -50%);
+  text-align: justify;
+  color: white;
+}
+
+.text-container h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  font-size: 18px;
+}
+.text-container h1 {
+ font-size: 60px;
+ font-weight: 600;
+}
+.text-container h2 {
+  font-size: 30px;
+  font-weight: 400;
+ }
+
+ .text-container p {
+  font-size: 22px;
+  font-weight: 300;
+ }
+
+div a {
+  color: white;
+  font-size: 20px;
+}
+
+.container .subtitle-section {
+  font-size: 60px;
+  font-weight: 600;
+}
