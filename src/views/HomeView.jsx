@@ -32,14 +32,14 @@ const HomeView = () => {
               <div>
                 <h2 className="absolute top-36 left-1/6 mr-16 ml-16 text-2xl	text-gray-500 text-center	">La Ciudad <br/>Universitaria de <br/> Caracas</h2>
                 <img
-                  src="/src/assets/image/Reloj-24.png"
+                  src="src/assets/image/Reloj-24.png"
                   alt=""
                   className="hovered-images"
                 />
               </div>
             ) : (
               <img
-                src="/src/assets/image/Reloj1-24.png"
+                src="src/assets/image/Reloj1-24.png"
                 alt=""
                 className="home-images"
               />
@@ -56,14 +56,14 @@ const HomeView = () => {
               <div>
                 <h2 className="absolute top-36 left-1/6 right-1/6 mr-24 ml-24 text-2xl	text-gray-500 text-center	">Carlos Raul <br/> Villanueva</h2>
                 <img
-                  src="/src/assets/image/CRV-24.png"
+                  src="src/assets/image/CRV-24.png"
                   alt=""
                   className="hovered-images"
                 />
               </div>
             ) : (
               <img
-                src="/src/assets/image/CRV1-24.png"
+                src="src/assets/image/CRV1-24.png"
                 alt=""
                 className="home-images"
               />
@@ -80,14 +80,14 @@ const HomeView = () => {
               <div>
                <h2 className="absolute top-36 left-1/6 right-1/6 mr-24 ml-24  text-2xl	text-gray-500 text-center	">Arquitectura, <br/> Arte y Paisaje</h2>
                 <img
-                  src="/src/assets/image/Nubes-24.png"
+                  src="src/assets/image/Nubes-24.png"
                   alt=""
                   className="hovered-images"
                 />
               </div>
             ) : (
               <img
-                src="/src/assets/image/mockup EVA-67 (1).png"
+                src="src/assets/image/mockup EVA-67 (1).png"
                 alt=""
                 className="home-images"
               />
@@ -104,14 +104,14 @@ const HomeView = () => {
               <div>
                <p className="absolute top-36 left-1/6 right-1/6 mr-16 ml-16 text-2xl	text-gray-500 text-center	">EVA: <br/> Experiencia Virtual <br /> Arquitectonica</p>
                 <img
-                  src="/src/assets/image/Pastor-24.png"
+                  src="src/assets/image/Pastor-24.png"
                   alt=""
                   className="hovered-images"
                 />
               </div>
             ) : (
               <img
-                src="/src/assets/image/mockup EVA-68.png"
+                src="src/assets/image/mockup EVA-68.png"
                 alt=""
                 className="home-images"
               />
