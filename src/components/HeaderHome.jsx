@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const HeaderHome = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,21 +23,21 @@ const HeaderHome = () => {
       >
         {isOpen && (
           <nav className="flex mt-6 mr-24	">
-            <a href="#" className="px-4 text-black">
+            <Link to="/" className="px-4 text-black">
               Pagina Principal
-            </a>
-            <a href="#" className="px-4 text-black">
+            </Link>
+            <Link to="/ciudad-universitaria" className="px-4 text-black">
               La Ciudad Universitaria
-            </a>
-            <a href="#" className="px-4 text-black">
+            </Link>
+            <Link to="/carlos-raul-villanueva" className="px-4 text-black">
               Carlos Raul Villanueva
-            </a>
-            <a href="#" className="px-4 text-black">
+            </Link>
+            <Link to="/sintesis-de-las-artes" className="px-4 text-black">
               Sintesis de las Artes
-            </a>
-            <a href="#" className="px-4 text-black" >
+            </Link>
+            <Link to="/proyecto-eva" className="px-4 text-black">
               Proyecto EVA
-            </a>
+            </Link>
           </nav>
         )}
       </div>
@@ -51,9 +52,9 @@ const HeaderHome = () => {
         className={`absolute top-4 right-4 z-50 w-10 h-10 cursor-pointer`}
         onClick={toggleMenu}
       >
-      <line x1="6" y1="12" x2="18" y2="12" className="text-black"></line>
-      <line x1="6" y1="8" x2="18" y2="8" className="text-black"></line>
-      <line x1="6" y1="16" x2="18" y2="16" className="text-black"></line>
+        <line x1="6" y1="12" x2="18" y2="12" className="text-black"></line>
+        <line x1="6" y1="8" x2="18" y2="8" className="text-black"></line>
+        <line x1="6" y1="16" x2="18" y2="16" className="text-black"></line>
       </svg>
     </div>
   );

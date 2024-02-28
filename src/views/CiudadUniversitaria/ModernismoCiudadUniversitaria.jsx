@@ -8,8 +8,8 @@ const ModernismoCiudadUniversitaria = () => {
         <div className="flex">
             <div className="w-2/5">
                 <div className="container pl-5">
-                    <img src="/src/assets/image/Ciudad.png" className="h-1/2 pb-5 pt-5" alt="" />
-                    <img src="/src/assets/image/FUNDACION-VILLANUEVA.jpg" className="h-1/2 pb-5 pt-5" alt="" />
+                    <img src="/static/images/Ciudad.png" className="h-1/2 pb-5 pt-5" alt="" />
+                    <img src="/static/images/FUNDACION-VILLANUEVA.jpg" className="h-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
             <div className="w-3/5 text-neutral-500	pt-12 text-right mr-4 ml-4">

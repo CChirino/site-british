@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 const WhiteMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,21 +24,21 @@ const WhiteMenu = () => {
       >
         {isOpen && (
           <nav className="flex mt-6 mr-24	">
-            <a href="#" className="px-4 text-white">
+            <Link to="/" className="px-4 text-white">
               Pagina Principal
-            </a>
-            <a href="#" className="px-4 text-white">
+            </Link>
+            <Link to="/ciudad-universitaria" className="px-4 text-white">
               La Ciudad Universitaria
-            </a>
-            <a href="#" className="px-4 text-white">
+            </Link>
+            <Link to="/carlos-raul-villanueva" href="#" className="px-4 text-white">
               Carlos Raul Villanueva
-            </a>
-            <a href="#" className="px-4 text-white">
+            </Link>
+            <Link to="/sintesis-de-las-artes" className="px-4 text-white">
               Sintesis de las Artes
-            </a>
-            <a href="#" className="px-4 text-white" >
+            </Link>
+            <Link to="/proyecto-eva" className="px-4 text-white" >
               Proyecto EVA
-            </a>
+            </Link>
           </nav>
         )}
       </div>

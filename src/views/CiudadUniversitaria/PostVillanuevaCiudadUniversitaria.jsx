@@ -25,7 +25,7 @@ const PostVillanuevaCiudadUniversitaria = () => {
             </div>
             <div className="w-2/5">
                 <div className="container pr-5">
-                    <img src="/src/assets/image/gettyimages-OTTO B.jpg" className="h-1/2 pb-5 pt-5" alt="" />
+                    <img src="/static/images/gettyimages-OTTO B.jpg" className="h-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
         </div>
