@@ -7,20 +7,20 @@ const FooterHome = () => {
         <div className="flex flex-1 items-center mr-5 ml-5">
           <img
             className="w-auto h-8 mr-2"
-            src="/src/assets/image/eva-logo.png"
+            src="/static/images/eva-logo.png"
             alt="Eva Logo"
           />
           <span className="font-rubik">Una Iniciativa de </span>
           <img
             className="w-1/4 h-10 mr-2"
-            src="/src/assets/image/mockup EVA-24.png"
+            src="/static/images/mockup EVA-24.png"
             alt="Logo"
           />
         </div>
         <div className="flex flex-1 justify-end">
           <img
             className="w-auto h-10 ml-2"
-            src="/src/assets/image/mockup EVA-67.png"
+            src="/static/images/mockup EVA-67.png"
             alt="Nubes calder"
           />
         </div>

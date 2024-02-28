@@ -8,14 +8,14 @@ const FirstView = () => {
       <div className="flex flex-col items-center pt-5 pb-5">
         <div className="flex flex-col items-center pt-5 pb-5">
           <img
-            src="/src/assets/image/mockup EVA-67.png"
+            src="/static/images/mockup EVA-67.png"
             alt="nubes"
             className="clouds w-1/2 sm:w-1/3 md:w-1/7 lg:w-1/8"
           />
         </div>
         <div className="flex flex-col items-center pt-3">
           <img
-            src="/src/assets/image/2-02.png"
+            src="/static/images/2-02.png"
             alt="descripcion"
             className="w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5"
           />
@@ -23,7 +23,7 @@ const FirstView = () => {
       </div>
       <div className="flex flex-col items-end pt-5 pb-5">
         <img
-          src="/src/assets/image/mockup EVA-67.png"
+          src="/static/images/mockup EVA-67.png"
           alt="nubes"
           className="w-1/6 sm:w-1/4 md:w-1/12 lg:w-1/8"
         />
