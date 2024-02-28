@@ -32,7 +32,7 @@ const HomeView = () => {
               <div>
                 <h2 className="absolute top-36 left-1/6 mr-16 ml-16 text-2xl	text-gray-500 text-center	">La Ciudad <br/>Universitaria de <br/> Caracas</h2>
                 <img
-                  src="public/assets/image/Reloj-24.png"
+                  src="/public/static/images/Reloj-24.png"
                   alt=""
                   className="hovered-images"
                 />
