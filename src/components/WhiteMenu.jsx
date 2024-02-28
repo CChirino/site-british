@@ -24,19 +24,19 @@ const WhiteMenu = () => {
       >
         {isOpen && (
           <nav className="flex mt-6 mr-24	">
-            <Link to="/" className="px-4 text-white">
+            <Link to="/" className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg">
               Pagina Principal
             </Link>
-            <Link to="/ciudad-universitaria" className="px-4 text-white">
+            <Link to="/ciudad-universitaria" className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg">
               La Ciudad Universitaria
             </Link>
-            <Link to="/carlos-raul-villanueva" href="#" className="px-4 text-white">
+            <Link to="/carlos-raul-villanueva" href="#" className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg">
               Carlos Raul Villanueva
             </Link>
-            <Link to="/sintesis-de-las-artes" className="px-4 text-white">
+            <Link to="/sintesis-de-las-artes" className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg">
               Sintesis de las Artes
             </Link>
-            <Link to="/proyecto-eva" className="px-4 text-white" >
+            <Link to="/proyecto-eva" className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg" >
               Proyecto EVA
             </Link>
           </nav>

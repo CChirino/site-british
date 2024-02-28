@@ -22,20 +22,35 @@ const HeaderHome = () => {
         } transition-transform duration-300 ease-in-out`}
       >
         {isOpen && (
-          <nav className="flex mt-6 mr-24	">
-            <Link to="/" className="px-4 text-black">
+          <nav className="flex mt-6 mr-24">
+            <Link
+              to="/"
+              className="px-5 text-black hover:bg-gray-200 rounded hover:text-black text-lg	"
+            >
               Pagina Principal
             </Link>
-            <Link to="/ciudad-universitaria" className="px-4 text-black">
+            <Link
+              to="/ciudad-universitaria"
+              className="px-5 text-black hover:bg-gray-200 rounded hover:text-black text-lg	"
+            >
               La Ciudad Universitaria
             </Link>
-            <Link to="/carlos-raul-villanueva" className="px-4 text-black">
+            <Link
+              to="/carlos-raul-villanueva"
+              className="px-5 text-black hover:bg-gray-200 rounded hover:text-black text-lg	"
+            >
               Carlos Raul Villanueva
             </Link>
-            <Link to="/sintesis-de-las-artes" className="px-4 text-black">
+            <Link
+              to="/sintesis-de-las-artes"
+              className="px-5 text-black hover:bg-gray-200 rounded hover:text-black text-lg	"
+            >
               Sintesis de las Artes
             </Link>
-            <Link to="/proyecto-eva" className="px-4 text-black">
+            <Link
+              to="/proyecto-eva"
+              className="px-5 text-black hover:bg-gray-200 rounded hover:text-black text-lg	"
+            >
               Proyecto EVA
             </Link>
           </nav>
