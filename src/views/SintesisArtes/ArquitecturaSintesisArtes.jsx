@@ -17,7 +17,7 @@ const ArquitecturaSintesisArtes = () => {
       </div>
       <FooterHome/>
       <div className="invisible ">
-          <img src="/public/static/images/mockup EVA-67.png" alt="" />
+          <img src="/static/images/mockup EVA-67.png" alt="" />
       </div>
     </div>
   );
