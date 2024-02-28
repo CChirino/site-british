@@ -1,6 +1,5 @@
 import React from "react";
 import WhiteMenu from "../../components/WhiteMenu";
-import FooterHome from "../../components/FooterHome";
 
 const HomeSintesisArtes = () => {
   return (
@@ -16,7 +15,6 @@ const HomeSintesisArtes = () => {
          </p>
         </div>
       </div>
-      <FooterHome/>
     </div>
   );
 };

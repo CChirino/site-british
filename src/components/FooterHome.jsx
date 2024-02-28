@@ -18,6 +18,7 @@ const FooterHome = () => {
           />
         </div>
         <div className="flex flex-1 justify-end">
+          <p className="text-white pt-2 mr-1 ml-1">ES / EN </p>
           <img
             className="w-auto h-10 ml-2"
             src="/static/images/mockup EVA-67.png"

@@ -21,7 +21,6 @@ const ArteHomeView = () => {
           </div>
         </div>
       </div>
-      <FooterHome/>
     </div>
   );
 };

@@ -12,7 +12,7 @@ const HaciendaCiudadUniversitaria = () => {
                     <img src="/static/images/EVA2-18.png" className="h-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
-            <div className="w-3/5 text-neutral-500	pt-48 text-right mr-2 ml-4">
+            <div className="w-3/5 text-neutral-500	pt-28 text-right mr-20 ml-32">
                  <div className="container">
                     <h2 className="pt-10 pb-10 subtitle-section">Una Hacienda que se <br/> convirtió en Ciudad
                     </h2>
@@ -29,7 +29,6 @@ const HaciendaCiudadUniversitaria = () => {
             </div>
         </div>
       </div>
-      <FooterHome/>
     </div>
   );
 };

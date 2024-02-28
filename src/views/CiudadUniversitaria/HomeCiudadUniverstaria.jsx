@@ -13,7 +13,6 @@ const HomeCiudadUniversitaria = () => {
           </p>
         </div>
       </div>
-      <FooterHome/>
     </div>
   );
 };

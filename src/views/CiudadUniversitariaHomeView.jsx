@@ -17,7 +17,6 @@ const CiudadUniversitariaHomeView = () => {
           </div>
         </div>
       </div>
-      <FooterHome/>
     </div>
   );
 };

@@ -39,7 +39,7 @@ const HomeView = () => {
               </div>
             ) : (
               <img
-                src="/static/images/Reloj1-24.png"
+                src="/static/images/mockup EVA-65.png"
                 alt=""
                 className="home-images"
               />
@@ -63,7 +63,7 @@ const HomeView = () => {
               </div>
             ) : (
               <img
-                src="/static/images/CRV1-24.png"
+                src="/static/images/mockup EVA-66.png"
                 alt=""
                 className="home-images"
               />
@@ -125,7 +125,6 @@ const HomeView = () => {
           </div>
         )}
       </div>
-      <FooterHome />
     </div>
   );
 };

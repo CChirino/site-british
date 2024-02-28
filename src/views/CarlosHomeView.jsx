@@ -16,7 +16,6 @@ const CarlosHomeView = () => {
           </div>
         </div>
       </div>
-      <FooterHome/>
     </div>
   );
 };

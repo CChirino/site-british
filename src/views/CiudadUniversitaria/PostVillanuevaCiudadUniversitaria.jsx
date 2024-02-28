@@ -1,12 +1,16 @@
 import React from "react";
-import FooterHome from "../../components/FooterHome";
 
 const PostVillanuevaCiudadUniversitaria = () => {
   return (
     <div>
       <div className="bg-neutral-50">
         <div className="flex">
-            <div className="w-3/5 text-neutral-500	pt-4 text-left mr-8 ml-6">
+            <div className="w-2/5">
+                <div className="container pl-5">
+                    <img src="/static/images/gettyimages-OTTO B.jpg" className="h-1/2 pb-5 pt-5" alt="" />
+                </div>
+            </div>
+            <div className="w-3/5 text-neutral-500	pt-12 text-right mr-20 ml-32">
                  <div className="container">
                     <h2 className="pt-5 pb-10 subtitle-section">La CUC post Villanueva</h2>
                     <p className="pt-1 pb-1">
@@ -23,14 +27,8 @@ const PostVillanuevaCiudadUniversitaria = () => {
                     </p>
                  </div>
             </div>
-            <div className="w-2/5">
-                <div className="container pr-5">
-                    <img src="/static/images/gettyimages-OTTO B.jpg" className="h-1/2 pb-5 pt-5" alt="" />
-                </div>
-            </div>
         </div>
       </div>
-      <FooterHome/>
     </div>
   );
 };

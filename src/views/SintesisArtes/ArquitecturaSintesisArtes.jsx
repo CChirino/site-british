@@ -1,11 +1,8 @@
 import React from "react";
-import WhiteMenu from "../../components/WhiteMenu";
-import FooterHome from "../../components/FooterHome";
 
 const ArquitecturaSintesisArtes = () => {
   return (
     <div>
-      <WhiteMenu />
       <div className="background-container-arquitectura">
         <div className="text-container">
           <h1>Arquitectura</h1>
@@ -14,10 +11,6 @@ const ArquitecturaSintesisArtes = () => {
           <p>El campus en pleno es un juego de paralelepípedos algos verticales y otros horizontales, formas particulares, y como se interconectan unos con otros. Patios de luz, muros calados, parasoles, son parte de los recursos utilizados por Villanueva en su laboratorio de exploraciones para dar con las mejores respuestas arquitectónicas a los desafíos del clima y la modernidad caraqueña. 
          </p>
         </div>
-      </div>
-      <FooterHome/>
-      <div className="invisible ">
-          <img src="/static/images/mockup EVA-67.png" alt="" />
       </div>
     </div>
   );
