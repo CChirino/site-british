@@ -3,9 +3,9 @@ import React from "react";
 const VillanuevaCarlosRaul = () => {
   return (
     <div>
-      <div className="bg-zinc-800">
+      <div className="bg-zinc-50">
         <div className="flex">
-            <div className="w-3/5 text-white	pt-48 text-left mr-6 ml-2">
+            <div className="w-3/5 text-neutral-500	pt-48 text-left mr-6 ml-2">
                  <div className="container pb-10">
                     <h2 className="pt-10 pb-10 subtitle-section mr-10 ml-10">Villanueva el Maestro</h2>
                     <p className="pt-1 pb-1 mr-10 ml-10">
@@ -22,9 +22,10 @@ const VillanuevaCarlosRaul = () => {
                     </p>
                  </div>
             </div>
-            <div className="w-2/5">
+            <div className="w-2/5 pt-60">
                 <div className="container pr-5">
-                    <img src="/static/images/mockup EVA-66.png" className="w-3/5" alt="" />
+                <img src="/static/images/EeQpqtDXsAE9Qnv.jpg" className="w-3/5 pt-5" alt="" />                          
+                <img src="/static/images/Carlos-Raúl-Villanueva-en-el-aula-magna-de-la-UCV-patrimonio-de-la-humanidad-Unesco-desde-el-año-2000.-Foto-P.-Gasparini-en-mincigob.jpg"  className="w-3/5 pt-5" alt="" />
                 </div>
             </div>
         </div>

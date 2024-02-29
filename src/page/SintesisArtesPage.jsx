@@ -3,6 +3,7 @@ import ArquitecturaSintesisArtes from "../views/SintesisArtes/ArquitecturaSintes
 import ArteSintesisArtes from "../views/SintesisArtes/ArteSintesisArtes";
 import PaisajismoSintesisArtes from "../views/SintesisArtes/PaisajismoSintesisArtes";
 import PrincipiosSintesisArtes from "../views/SintesisArtes/PrincipiosSintesisArtes";
+import ArquitecturaSeccionSintesisArtes from "../views/SintesisArtes/ArquitecturaSeccionSintesisArtes";
 import FooterHome from "../components/FooterHome";
 
 const SintesisArtesPage = () => {
@@ -13,10 +14,8 @@ const SintesisArtesPage = () => {
             <ArteSintesisArtes/>
             <PaisajismoSintesisArtes/>
             <PrincipiosSintesisArtes/>
+            <ArquitecturaSeccionSintesisArtes/>
             <FooterHome/>
-            <div className="invisible ">
-                <img src="/static/images/mockup EVA-67.png" alt="" />
-            </div>
         </div>
     );
 };
