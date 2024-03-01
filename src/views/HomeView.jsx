@@ -119,7 +119,7 @@ const HomeView = () => {
           </div>
         </div>
         {showSection && (
-          <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-black title-home w-full">
+          <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-black home-title title-home  w-screen">
             Sintesis de <br />
             las Artes
           </div>

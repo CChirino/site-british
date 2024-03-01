@@ -20,6 +20,16 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Goffik Outline";
+  src: url("/src/assets/fonts/Goffik-O.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Milestone Outline";
+  src: url("/src/assets/fonts/MilestoneOutline.otf") format("truetype");
+}
+
 body {
   font-family: "Rubik", sans-serif;
 }
@@ -32,6 +42,10 @@ h1 {
 h2 {
   font-family: "Rubik", sans-serif;
   font-weight: 500; /* Grosor medio */
+}
+
+.home-title{
+  font-family: "Goffik Outline";
 }
 
 p {
