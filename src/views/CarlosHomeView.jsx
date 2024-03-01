@@ -7,7 +7,7 @@ import image from "/static/images/EVA-03.png";
 
 const CarlosHomeView = () => {
   return (
-    <div>
+    <div id="home-carlos">
       <WhiteMenu />
       <Parallax bgImage={image} strength={500}>
       <div className="bg-opacity-75 h-90vh flex justify-center items-center">

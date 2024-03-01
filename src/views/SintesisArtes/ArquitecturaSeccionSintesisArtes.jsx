@@ -2,7 +2,7 @@ import React from "react";
 
 const ArquitecturaSeccionSintesisArtes = () => {
   return (
-    <div>
+    <div className="invisible">
       <div className="bg-zinc-800">
         <div className="flex pb-24 pt-12">
             <div className="w-2/5">

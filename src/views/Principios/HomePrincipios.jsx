@@ -1,8 +1,10 @@
 import React from "react";
+import WhiteMenu from "../../components/WhiteMenu";
 
 const HomePrincipios = () => {
   return (
     <div>
+      <WhiteMenu />
       <div className="background-container-principios">
         <div className="text-container">
           <h1>Principios de Diseño de la Ciudad Universitaria de Caracas </h1>

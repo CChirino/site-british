@@ -11,7 +11,7 @@ const PrincipiosSintesisArtes = () => {
           </p>
           <div className="mt-6 underline	">
             <Link
-              to="/paisaje">
+              to="/principios">
               Conoce más
             </Link>  
         </div>
