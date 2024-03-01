@@ -1,12 +1,16 @@
 import React from "react";
 import WhiteMenu from "../components/WhiteMenu";
+import { Link } from "react-router-dom";
+import { Parallax } from "react-parallax";
+import image from "/static/images/EVA-05.png";
 import FooterHome from "../components/FooterHome";
 
 const EvaHomeView = () => {
   return (
     <div>
       <WhiteMenu />
-      <div className="background-container-eva">
+      <Parallax bgImage={image} strength={500}>
+      <div className="bg-opacity-75 h-90vh flex justify-center items-center">
         <div className="text-container">
         <img
             className="w-1/5"
@@ -20,11 +24,15 @@ const EvaHomeView = () => {
          <p>
          La Ciudad Universitaria de Caracas se convierte en el primer escenario de EVA.
          </p>
-          <div className="mt-20 underline	">
-            <a href=""> Conoce más</a>
+          <div className="mt-20 underline pb-16	">
+          <Link
+              to="/proyecto-eva">
+               Conoce más
+            </Link>
           </div>
         </div>
       </div>
+        </Parallax>
       <FooterHome/>
     </div>
   );
