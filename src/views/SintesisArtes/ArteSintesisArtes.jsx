@@ -11,6 +11,9 @@ const ArteSintesisArtes = () => {
           <br/> 
           <p>La variedad de artistas en cuanto a su origen también se traduce a una variedad de técnicas y formatos. La Colección titulada “síntesis de las artes” esta conformada por 107 piezas.
          </p>
+         <div className="mt-6 underline	">
+            <a href=""> Conoce más</a>
+        </div>
         </div>
       </div>
     </div>

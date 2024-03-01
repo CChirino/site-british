@@ -10,6 +10,9 @@ const ArquitecturaSintesisArtes = () => {
           <br/> 
           <p>El campus en pleno es un juego de paralelepípedos algos verticales y otros horizontales, formas particulares, y como se interconectan unos con otros. Patios de luz, muros calados, parasoles, son parte de los recursos utilizados por Villanueva en su laboratorio de exploraciones para dar con las mejores respuestas arquitectónicas a los desafíos del clima y la modernidad caraqueña. 
          </p>
+        <div className="mt-6 underline	">
+            <a href=""> Conoce más</a>
+        </div>
         </div>
       </div>
     </div>

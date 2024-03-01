@@ -5,6 +5,10 @@ import CiudadUniverstariaPage from './page/CiudadUniversitariaPage';
 import CarlosRaulPage from './page/CarlosRaulPage';
 import SintesisArtesPage from './page/SintesisArtesPage';
 import EVAPage from './page/EVAPage';
+import ArquitecturaPage from './page/ArquitecturaPage';
+import ArtePage from './page/ArtePage';
+import PaisajePage from './page/PaisajePage';
+import PrincipiosPage from './page/PrincipiosPage';
 
 function App() {
   return (
@@ -15,6 +19,10 @@ function App() {
         <Route path="/carlos-raul-villanueva" element={<CarlosRaulPage />} />
         <Route path="/sintesis-de-las-artes" element={<SintesisArtesPage />} />
         <Route path="/proyecto-eva" element={<EVAPage />} />
+        <Route path="/arquitectura" element={<ArquitecturaPage />} />
+        <Route path="/arte" element={<ArtePage />} />
+        <Route path="/paisaje" element={<PaisajePage />} />
+        <Route path="/principios" element={<PrincipiosPage />} />
       </Routes>
     </Router>
   );
