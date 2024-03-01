@@ -25,6 +25,9 @@ const ActualidadSeccionCiudadUniversitaria = () => {
                  </div>
             </div>
         </div>
+        <div className="flex">
+          <img src="/static/images/CUCyzonas rentales-02.png" alt="" />
+        </div>
       </div>
     </div>
   );
