@@ -3,7 +3,7 @@ import React from "react";
 const PatrimonioSeccionCiudadUniversitaria = () => {
   return (
     <div>
-      <div className="bg-neutral-50">
+      <div className="bg-neutral-50" id="patrimonio">
         <div className="flex">
             <div className="w-2/5">
                 <div className="container pl-5">
