@@ -11,12 +11,14 @@ import VerdeSeccion from "../views/Principios/VerdeSeccion";
 import VerdeInformacion from "../views/Principios/VerdeInformacion";
 import SeparacionSeccion from "../views/Principios/SeparacionSeccion";
 import SeparacionInformacion from "../views/Principios/SeparacionInformacion";
+import ScrollToTop from "../components/ScrollToTop";
 import FooterHome from "../components/FooterHome";
 
 
 const PrincipiosPage = () => {
     return (
         <div>
+            <ScrollToTop/>
             <HomePrincipios/>
             <MaterialidadSeccion/>
             <MaterialidadInformacion/>
