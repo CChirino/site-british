@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ArteSintesisArtes = () => {
   return (
@@ -12,8 +13,11 @@ const ArteSintesisArtes = () => {
           <p>La variedad de artistas en cuanto a su origen también se traduce a una variedad de técnicas y formatos. La Colección titulada “síntesis de las artes” esta conformada por 107 piezas.
          </p>
          <div className="mt-6 underline	">
-            <a href=""> Conoce más</a>
-        </div>
+            <Link
+              to="/arte">
+              Conoce más
+            </Link>        
+          </div>
         </div>
       </div>
     </div>
