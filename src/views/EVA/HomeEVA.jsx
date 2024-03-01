@@ -1,12 +1,14 @@
 import React from "react";
 import WhiteMenu from "../../components/WhiteMenu";
-import FooterHome from "../../components/FooterHome";
+import { Parallax } from "react-parallax";
+import image from "/static/images/EVA-05.png";
 
 const HomeEVA = () => {
   return (
     <div>
       <WhiteMenu />
-      <div className="background-container-eva">
+      <Parallax bgImage={image} strength={500}>
+      <div className="bg-opacity-75 h-90vh flex justify-center items-center">
         <div className="text-container">
         <img
             className="w-1/5"
@@ -22,7 +24,7 @@ const HomeEVA = () => {
          </p>
         </div>
       </div>
-      <FooterHome/>
+      </Parallax>
     </div>
   );
 };
