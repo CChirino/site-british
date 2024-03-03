@@ -2,7 +2,7 @@ import React from "react";
 
 const MovimientoSeccion = () => {
   return (
-    <div>
+    <div id="movimiento">
       <div className="background-container-principios">
         <div className="text-container">
           <h1>Movimiento </h1>

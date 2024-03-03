@@ -31,7 +31,7 @@ const HomeView = () => {
           <a href="#home-ciudad">
             {hoveredColumn === 0 ? (
               <div>
-                <h2 className="absolute top-36 left-1/6 mr-16 ml-16 text-2xl	text-gray-500 text-center	">La Ciudad <br/>Universitaria de <br/> Caracas</h2>
+                <p className="absolute top-36 left-6 mr-16 ml-16 text-2xl	text-gray-500 text-center	">La Ciudad <br/>Universitaria de <br/> Caracas</p>
                 <img
                   src="/static/images/Reloj-24.png"
                   alt=""
@@ -57,7 +57,7 @@ const HomeView = () => {
             <a href="#home-carlos">
             {hoveredColumn === 1 ? (
               <div>
-                <h2 className="absolute top-36 left-1/6 right-1/6 mr-24 ml-24 text-2xl	text-gray-500 text-center	">Carlos Raul <br/> Villanueva</h2>
+                <p className="absolute top-36 left-96 right-1/6 mr-32 ml-32 text-2xl	text-gray-500 text-center	">Carlos Raul <br/> Villanueva</p>
                 <img
                   src="/static/images/CRV-24.png"
                   alt=""
@@ -83,7 +83,7 @@ const HomeView = () => {
             <a href="#home-arte">
             {hoveredColumn === 2 ? (
               <div>
-               <h2 className="absolute top-36 left-1/6 right-1/6 mr-24 ml-24  text-2xl	text-gray-500 text-center	">Arquitectura, <br/> Arte y Paisaje</h2>
+               <p className="absolute top-36 left-1/6 right-1/6 mr-32 ml-32  text-2xl	text-gray-500 text-center	">Arquitectura, <br/> Arte y Paisaje</p>
                 <img
                   src="/static/images/Nubes-24.png"
                   alt=""
@@ -109,7 +109,7 @@ const HomeView = () => {
             <a href="#home-eva">
             {hoveredColumn === 3 ? (
               <div>
-               <p className="absolute top-36 left-1/6 right-1/6 mr-16 ml-16 text-2xl	text-gray-500 text-center	">EVA: <br/> Experiencia Virtual <br /> Arquitectonica</p>
+               <p className="absolute top-36 left-1/6 right-1/6 mr-20 ml-20 text-2xl	text-gray-500 text-center	">EVA: <br/> Experiencia Virtual <br /> Arquitectonica</p>
                 <img
                   src="/static/images/Pastor-24.png"
                   alt=""

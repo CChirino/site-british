@@ -2,7 +2,7 @@ import React from "react";
 
 const MaterialidadSeccion = () => {
   return (
-    <div>
+    <div id="materialidad">
       <div className="background-container-principios">
         <div className="text-container">
           <h1>Materialidad </h1>

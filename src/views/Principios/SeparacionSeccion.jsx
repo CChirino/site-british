@@ -2,7 +2,7 @@ import React from "react";
 
 const SeparacionSeccion = () => {
   return (
-    <div>
+    <div id="separacion-usos">
       <div className="background-container-principios">
         <div className="text-container">
           <h1>Separación de usos </h1>
