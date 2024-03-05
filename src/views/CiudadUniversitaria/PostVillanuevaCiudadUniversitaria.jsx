@@ -31,8 +31,8 @@ const PostVillanuevaCiudadUniversitaria = () => {
         <div className="flex justify-center items-center pt-10 pb-10" id="linea-tiempo-mapa">
           <img src="/static/images/linea-tiempo-cuc.png" alt="" />
         </div>
-        <div className="flex justify-center items-center h-1/2 pt-10 pb-10">
-          <img src="/static/images/AereoFotos.gif" alt="" />
+        <div className="flex justify-center items-center pt-10 pb-10">
+          <img src="/static/images/AereoFotos.gif" className="h-1/2 w-1/2" alt="" />
         </div>
       </div>
     </div>
