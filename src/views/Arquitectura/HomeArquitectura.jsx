@@ -1,10 +1,8 @@
 import React from "react";
-import WhiteMenu from "../../components/WhiteMenu";
 
 const HomeArquitectura = () => {
   return (
     <div>
-      <WhiteMenu />
       <div className="background-container-arquitectura">
         <div className="text-container">
           <h1>Arquitectura</h1>

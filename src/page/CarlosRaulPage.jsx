@@ -7,11 +7,13 @@ import VideoCarlosRaul from '../views/CarlosRaul/VideoCarlosRaul';
 import LineadetiempoCarlosRaul from '../views/CarlosRaul/LineadetiempoCarlosRaul';
 import ScrollToTop from '../components/ScrollToTop';
 import FooterHome from '../components/FooterHome';
+import HeaderHome from '../components/HeaderHome';
 
 const CarlosRaulPage = () => {
     return (
         <div>
             <ScrollToTop/>
+            <HeaderHome />
             <HomeCarlosRaul/>
             <LondresCarlosRaul/>
             <HacedorCarlosRaul/>

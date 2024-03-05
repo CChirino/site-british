@@ -17,16 +17,16 @@ const FooterHome = () => {
             src="/static/images/mockup EVA-24.png"
             alt="Logo"
           />
-            <Link to="/ciudad-universitaria/" className="h-1/6 w-1/6">
+            <Link to="/ciudad-universitaria/" className="h-16 w-16">
               <img src="/static/images/Iconos-69.png" alt="" />
             </Link>
-            <Link to="/carlos-raul-villanueva" className="h-1/6 w-1/6">
+            <Link to="/carlos-raul-villanueva" className="h-16 w-16 pt-5">
               <img src="/static/images/Iconos-68.png" alt="" />
             </Link>
-            <Link to="/sintesis-de-las-artes" className="h-1/6 w-1/6">
+            <Link to="/sintesis-de-las-artes" className="h-16 w-16 pt-1">
               <img src="/static/images/Iconos-67.png" alt="" />
             </Link>
-            <Link to="/proyecto-eva" className="h-1/6 w-1/6">
+            <Link to="/proyecto-eva" className="h-16 w-16">
               <img src="/static/images/Iconos-66.png" alt="" />
             </Link>
         </div>

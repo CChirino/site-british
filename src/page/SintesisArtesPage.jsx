@@ -5,12 +5,14 @@ import PaisajismoSintesisArtes from "../views/SintesisArtes/PaisajismoSintesisAr
 import PrincipiosSintesisArtes from "../views/SintesisArtes/PrincipiosSintesisArtes";
 import ArquitecturaSeccionSintesisArtes from "../views/SintesisArtes/ArquitecturaSeccionSintesisArtes";
 import ScrollToTop from "../components/ScrollToTop";
+import HeaderHome from '../components/HeaderHome';
 import FooterHome from "../components/FooterHome";
 
 const SintesisArtesPage = () => {
     return (
         <div>
             <ScrollToTop/>
+            <HeaderHome />
             <HomeSintesisArtes/>
             <ArquitecturaSintesisArtes/>
             <ArteSintesisArtes/>

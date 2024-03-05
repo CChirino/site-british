@@ -7,7 +7,6 @@ import image from "/static/images/EVA-04.png";
 const ArteHomeView = () => {
   return (
     <div id="home-arte">
-      <WhiteMenu />
       <Parallax bgImage={image} strength={500}>
       <div className="bg-opacity-75 h-90vh flex justify-center items-center">
         <div className="text-container">

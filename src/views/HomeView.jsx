@@ -18,7 +18,6 @@ const HomeView = () => {
 
   return (
     <div>
-      <HeaderHome />
       <div className="relative">
         <div className="flex">
           <div

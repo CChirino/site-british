@@ -9,11 +9,13 @@ import ActualidadCiudadUnivertaria from '../views/CiudadUniversitaria/Actualidad
 import ActualidadSeccionCiudadUniversitaria from '../views/CiudadUniversitaria/ActualidadSeccionCiudadUniversitaria';
 import ScrollToTop from '../components/ScrollToTop';
 import FooterHome from '../components/FooterHome';
+import HeaderHome from '../components/HeaderHome';
 
 const CiudadUniverstariaPage = () => {
     return (
         <div>
             <ScrollToTop/>
+            <HeaderHome />
             <HomeCiudadUniversitaria/>
             <HaciendaCiudadUniversitaria />
             <HospitalCiudadUniversitaria/>

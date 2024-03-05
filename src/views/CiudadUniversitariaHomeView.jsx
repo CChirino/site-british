@@ -8,7 +8,6 @@ import image from "/static/images/EVA-01.png";
 const CiudadUniversitariaHomeView = () => {
   return (
     <div id="home-ciudad">
-      <WhiteMenu />
       <Parallax bgImage={image} strength={500}>
         <div className="bg-opacity-75 h-90vh flex justify-center items-center">
           <div className="text-container">

@@ -1,5 +1,4 @@
 import React from "react";
-import WhiteMenu from "../../components/WhiteMenu";
 import { Parallax } from "react-parallax";
 import image from "/static/images/EVA-01.png";
 import { useSpring, animated } from "@react-spring/web";
@@ -14,7 +13,6 @@ const HomeCiudadUniversitaria = () => {
 
   return (
     <div>
-      <WhiteMenu />
       <Parallax bgImage={image} strength={500}>
         <div className="bg-opacity-75 h-90vh flex justify-center items-center">
           <div className="text-container">
