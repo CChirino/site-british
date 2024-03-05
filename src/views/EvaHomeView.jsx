@@ -14,7 +14,7 @@ const EvaHomeView = () => {
         <div className="text-container">
         <img
             className="w-1/5"
-            src="/src/assets/image/eva-logo.png"
+            src="/static/images/eva-logo.png"
             alt="Eva Logo"
           />
           <h1>Experiencia Virtual <br/> Arquitectónica</h1>

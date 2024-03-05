@@ -2,7 +2,7 @@ import React from "react";
 
 const ActualidadCiudadUnivertaria = () => {
   return (
-    <div>
+    <div id="cuc-actual">
       <div className="background-container-cuc pt-10">
         <div className="text-container">
           <h1>La CUC en la <br/> actualidad</h1>

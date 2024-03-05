@@ -4,7 +4,7 @@ import FooterHome from "../../components/FooterHome";
 const ModernismoCiudadUniversitaria = () => {
   return (
     <div>
-      <div className="bg-zinc-700">
+      <div className="bg-zinc-500">
         <div className="flex">
             <div className="w-2/5">
                 <div className="container pl-10 pr-10">
@@ -12,10 +12,10 @@ const ModernismoCiudadUniversitaria = () => {
                     <img src="/static/images/FUNDACION-VILLANUEVA.jpg" className="h-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
-            <div className="w-3/5 text-white text-right mr-20 ml-32">
+            <div className="w-3/5 text-white text-left mr-20 ml-32">
                  <div className="container">
-                    <h2 className="pb-10 subtitle-section">De Beux Arts a Modernismo 
-                    </h2>
+                    <h3 className="pb-10 subtitle-section">De Beux Arts a Modernismo 
+                    </h3>
                     <p className="pt-1 pb-3 text-justify">
                     Villanueva tomo entonces en 1950 una decisión que cambiaria completamente el resultado de la futura CUC, desecho completamente la pretensión axial y paso a un diseño más orgánico y moderno de las futuras edificaciones. Las necesidades del ejecutivo, ahora una junta militar de gobierno, le obligaron a definir el extremo oriental con mayor claridad, Caracas sería sede en diciembre de 1951 de los III juegos bolivarianos por lo cual el estadio olímpico debía estar listo. Alrededor de él surgirían otras instalaciones deportivas que no estaban contempladas en su plan original como complejo de piscinas, gimnasio techado, canchas menores la aire libre, etc.
                     </p>

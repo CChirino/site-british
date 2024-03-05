@@ -3,8 +3,8 @@ import FooterHome from "../../components/FooterHome";
 
 const HaciendaCiudadUniversitaria = () => {
   return (
-    <div>
-      <div className="bg-zinc-900">
+    <div id="contenido">
+      <div className="bg-zinc-500">
         <div className="flex">
             <div className="w-2/5">
                 <div className="container pl-10 pr-10">
@@ -12,10 +12,10 @@ const HaciendaCiudadUniversitaria = () => {
                     <img src="/static/images/EVA2-18.png" className="h-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
-            <div className="w-3/5 text-white	pt-12 text-right mr-20 ml-32">
+            <div className="w-3/5 text-white	pt-12 text-left mr-20 ml-32">
                  <div className="container">
-                    <h2 className="subtitle-section ">Una Hacienda que se <br/> convirtió en Ciudad
-                    </h2>
+                    <h3 className="subtitle-section ">Una Hacienda que se </h3>
+                    <h3 className="subtitle-section ">convirtió en Ciudad</h3>
                     <p className="pt-3 pb-3 text-justify">
                     La Ciudad Universitaria de Caracas es un producto moderno del ingenio de Villanueva, nació en 1942 con el decreto del presidente Medina Angarita. Sin embargo, su historia no inicia ahí sino en la hacienda Ibarra.
                     </p>

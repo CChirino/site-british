@@ -2,7 +2,6 @@ import React from "react";
 import WhiteMenu from "../../components/WhiteMenu";
 import { Parallax } from "react-parallax";
 import image from "/static/images/EVA-01.png";
-import { Link } from "react-router-dom";
 import { useSpring, animated } from "@react-spring/web";
 
 const HomeCiudadUniversitaria = () => {
@@ -24,10 +23,18 @@ const HomeCiudadUniversitaria = () => {
             </animated.p>
           </div>
           <div className="text-container right-text">
-            <animated.h2 style={textAnimation}>Contenido</animated.h2>
-            <animated.h2 style={textAnimation}>Linea de Tiempo</animated.h2>
-            <animated.h2 style={textAnimation}>Patrimonio Mundial</animated.h2>
-            <animated.h2 style={textAnimation}>CUC Actual</animated.h2>
+            <a href="#contenido">
+              <animated.h2 style={textAnimation}>Contenido</animated.h2>            
+            </a>
+            <a href="#linea-tiempo-mapa">
+              <animated.h2 style={textAnimation}>Linea de Tiempo</animated.h2>
+            </a>
+            <a href="#ciudad-universitaria">
+              <animated.h2 style={textAnimation}>Patrimonio Mundial</animated.h2>
+            </a>
+            <a href="#cuc-actual">
+              <animated.h2 style={textAnimation}>CUC Actual</animated.h2>
+            </a>
           </div>
         </div>
       </Parallax>

@@ -4,17 +4,17 @@ import FooterHome from "../../components/FooterHome";
 const HospitalCiudadUniversitaria = () => {
   return (
     <div>
-      <div className="bg-zinc-800">
+      <div className="bg-zinc-500">
         <div className="flex">
             <div className="w-2/5">
                 <div className="container pl-10 pr-10">
                     <img src="/static/images/gettyimages-OTTO B.jpg" className="h-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
-            <div className="w-3/5 pt-5 text-white text-right mr-24 ml-32">
+            <div className="w-3/5 pt-5 text-white text-left mr-24 ml-32">
                  <div className="container">
-                    <h2 className="pb-10 subtitle-section">Un nuevo hospital para una Caracas Moderna
-                    </h2>
+                    <h3 className="pb-10 subtitle-section">Un nuevo hospital para una Caracas Moderna
+                    </h3>
                     <p className="pt-1 pb-3 text-justify">
                     Durante los años cuarenta la insuficiencia del Hospital Vargas promueve la realización de un proyecto a través del Ministerio de Sanidad, y se vincula a la necesidad de práctica de los estudios de medicina. Esta fue la necesidad de partida y la excusa que necesito el ejecutivo nacional, al momento el palacio donde se ubicaba la Universidad Central de Venezuela no era suficiente ni moderno.
                     </p>

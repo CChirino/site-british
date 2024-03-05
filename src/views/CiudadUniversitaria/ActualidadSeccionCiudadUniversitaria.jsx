@@ -3,14 +3,14 @@ import React from "react";
 const ActualidadSeccionCiudadUniversitaria = () => {
   return (
     <div>
-      <div className="bg-zinc-400" id="actualidad">
+      <div className="bg-zinc-500" id="actualidad">
         <div className="flex">
             <div className="w-2/5">
                 <div className="container pl-10 pr-10">
                     <img src="/static/images/tierranadie.JPG" className="h-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
-            <div className="w-3/5 text-whites pb-10 text-right mr-20 ml-32">
+            <div className="w-3/5 text-whites pb-10 text-left mr-20 ml-32">
                  <div className="container">
                     <h2 className="pt-10 pb-10 subtitle-section">CUC en la actualidad</h2>
                     <p className="pt-1 pb-3 text-justify">

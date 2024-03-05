@@ -31,9 +31,8 @@ const HomeView = () => {
           <a href="#home-ciudad">
             {hoveredColumn === 0 ? (
               <div>
-                <p className="absolute top-36 left-6 mr-16 ml-16 text-2xl	text-gray-500 text-center	">La Ciudad <br/>Universitaria de <br/> Caracas</p>
                 <img
-                  src="/static/images/Reloj-24.png"
+                  src="/static/images/Portda Reloj.png"
                   alt=""
                   className="hovered-images"
                 />
@@ -57,16 +56,15 @@ const HomeView = () => {
             <a href="#home-carlos">
             {hoveredColumn === 1 ? (
               <div>
-                <p className="absolute top-36 left-96 right-1/6 mr-32 ml-32 text-2xl	text-gray-500 text-center	">Carlos Raul <br/> Villanueva</p>
                 <img
-                  src="/static/images/CRV-24.png"
+                  src="/static/images/Portada Villanueva.png"
                   alt=""
                   className="hovered-images"
                 />
               </div>
             ) : (
               <img
-                src="/static/images/mockup EVA-66.png"
+                src="/static/images/Portada Villa.png"
                 alt=""
                 className="home-images"
               />
@@ -128,8 +126,7 @@ const HomeView = () => {
         </div>
         {showSection && (
           <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-black home-title title-home  w-screen">
-            Sintesis de <br />
-            las Artes
+            <img src="/static/images/Letras Sintesis.png" alt="" />
           </div>
         )}
       </div>

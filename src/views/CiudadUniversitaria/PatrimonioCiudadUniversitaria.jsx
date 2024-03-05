@@ -2,7 +2,7 @@ import React from "react";
 
 const PatrimonioCiudadUniversitaria = () => {
   return (
-    <div>
+    <div id="ciudad-universitaria">
       <div className="background-container-patrimonio pt-10">
         <div className="text-container">
           <h1>Un Patrimonio Mundial  <br/> en Caracas</h1>

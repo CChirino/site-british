@@ -1,16 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
+import { useSpring, animated } from "@react-spring/web";
 import Header from "../components/Header";
 
 const FirstView = () => {
-  const [zoomLevel, setZoomLevel] = useState(1);
+  const [isImageHovered, setIsImageHovered] = React.useState(false);
 
   const handleMouseEnter = () => {
-    setZoomLevel(1.2); // Establecer el nivel de zoom cuando el mouse entra en la imagen
+    setIsImageHovered(true); // Establecer isImageHovered en true cuando el mouse entra en la imagen
   };
 
   const handleMouseLeave = () => {
-    setZoomLevel(1); // Restablecer el nivel de zoom cuando el mouse sale de la imagen
+    setIsImageHovered(false); // Establecer isImageHovered en false cuando el mouse sale de la imagen
   };
+
+  const zoomAnimation = useSpring({
+    transform: `scale(${isImageHovered ? 1.2 : 1})`,
+  });
 
   return (
     <div className="bg-neutral-500 pb-10">
@@ -21,11 +26,11 @@ const FirstView = () => {
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
         >
-          <img
+          <animated.img
             src="/static/images/mockup EVA-67.png"
             alt="nubes"
             className="clouds w-1/2 sm:w-1/3 md:w-1/7 lg:w-1/8"
-            style={{ transform: `scale(${zoomLevel})` }}
+            style={zoomAnimation}
           />
         </div>
         <div className="absolute top-30 right-40 flex flex-col mt-10 mr-52">
