@@ -6,7 +6,7 @@ import image from "/static/images/EVA-04.png";
 const HomeSintesisArtes = () => {
   return (
     <div>
-      <Parallax bgImage={image} strength={500}>
+      <Parallax bgImage={image} strength={300}>
       <div className="bg-opacity-75 h-90vh flex justify-center items-center">
         <div className="text-container">
           <h1>Arquitectura, Arte y <br/> Paisaje</h1>

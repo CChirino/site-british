@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Parallax } from "react-parallax";
+import image from "/static/images/Portada Arquitectura.png";
 
 const ArquitecturaSintesisArtes = () => {
   return (
     <div>
-      <div className="background-container-arquitectura">
+      <Parallax bgImage={image} strength={300}>
+      <div className="bg-opacity-75 h-90vh flex justify-center items-center">
         <div className="text-container">
           <h1>Arquitectura</h1>
           <p>Si bien el diseño urbano de la CUC inicio como una propuesta clásica, Villanueva dio una transformación al esquema moderno total. Todas las 55 edificaciones son un despliegue de ensayos y pruebas sobre las nociones del estilo internacional, un tratado sobre la luz y las sombras. </p>
@@ -19,6 +22,7 @@ const ArquitecturaSintesisArtes = () => {
         </div>
         </div>
       </div>
+      </Parallax>
     </div>
   );
 };
