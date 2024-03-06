@@ -32,7 +32,7 @@ const PostVillanuevaCiudadUniversitaria = () => {
           <img src="/static/images/linea-tiempo-cuc.png" alt="" />
         </div>
         <div className="flex justify-center items-center pt-10 pb-10">
-          <img src="/static/images/AereoFotos.gif" className="h-1/2 w-1/2" alt="" />
+          <img src="/static/images/AereoFotos.gif" className="h-2/5 w-2/5" alt="" />
         </div>
       </div>
     </div>
