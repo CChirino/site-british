@@ -15,10 +15,10 @@ const HospitalCiudadUniversitaria = () => {
                  <div className="container">
                     <h3 className="pb-10 subtitle-section">Un nuevo hospital para una Caracas Moderna
                     </h3>
-                    <p className="pt-1 pb-3 text-justify">
+                    <p className="pt-1 pb-3">
                     Durante los años cuarenta la insuficiencia del Hospital Vargas promueve la realización de un proyecto a través del Ministerio de Sanidad, y se vincula a la necesidad de práctica de los estudios de medicina. Esta fue la necesidad de partida y la excusa que necesito el ejecutivo nacional, al momento el palacio donde se ubicaba la Universidad Central de Venezuela no era suficiente ni moderno.
                     </p>
-                    <p className="pt-1 pb-3 text-justify">
+                    <p className="pt-1 pb-3">
                     La primera propuesta urbana general partía con el hospital en el extremo occidental del campus, mientras que un gran eje sentido este-oeste organizaba las edificaciones transversales o paralelas al mismo, todo inmerso en una simetría impoluta con un remate en un estadio olímpico en el extremo oriental. Un diseño completamente racionalista y basado en su aprendizaje en Bellas Artes. De este primer momento pre-moderno surgirían los primeros edificios como el propio hospital, los institutos de Medicina Experimental, el Anatómico y Anatomopatológico.
                     </p>
                  </div>
