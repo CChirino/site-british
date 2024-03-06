@@ -5,7 +5,14 @@ const VideoCarlosRaul = () => {
     <div>
       <div className="bg-zinc-50 pt-10 pb-32">
         <div className="flex justify-center items-center">
-          <img src="/static/images/video-villanueva.png" alt="" className="object-center" />
+          <video
+          className="object-center w-2/3"
+          autoPlay
+          muted
+          loop
+          playsInline
+          src="/static/video/MVI_3935.MP4"
+        />          
         </div>
       </div>
     </div>
