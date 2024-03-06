@@ -37,6 +37,28 @@ const ArquitecturaMapa = () => {
                             <animated.p  style={textAnimation} className="text-left pt-5">El campus en pleno es un juego de paralelepípedos algos verticales y otros horizontales, formas particulares, y como se interconectan unos con otros. Patios de luz, muros calados, parasoles, son parte de los recursos utilizados por Villanueva en su laboratorio de exploraciones para dar con las mejores respuestas arquitectónicas a los desafíos del clima y la modernidad caraqueña.
                             </animated.p>
                         </div>
+                        <ul className="flex justify-between pt-5">
+                            <li className="mr-2 ml-2">
+                                <img src="/static/images/galeria-1.jpg" alt="Imagen 1" />
+                            </li>
+                            <li className="mr-2 ml-2">
+                                <img src="/static/images/galeria-2.jpg" alt="Imagen 2" />
+                            </li>
+                            <li className="mr-2 ml-2">
+                                <img src="/static/images/galeria-3.jpg" alt="Imagen 3" />
+                            </li>
+                        </ul>
+                        <ul className="flex justify-between pt-5">
+                            <li className="mr-2 ml-2">
+                                <img src="/static/images/galeria-4.jpeg" alt="Imagen 1" />
+                            </li>
+                            <li className="mr-2 ml-2">
+                                <img src="/static/images/galeria-5.jpeg" alt="Imagen 2" />
+                            </li>
+                            <li className="mr-2 ml-2">
+                                <img src="/static/images/galeria-6.jpeg" alt="Imagen 3" />
+                            </li>
+                        </ul>
                     </div>
                     <div className="w-2/5 text-neutral-500 text-left">
                         <animated.img  style={textAnimation} src="/static/images/facultad-arquitectura.jpeg"  className=" pb-5  pr-10 pt-16" alt="" />
