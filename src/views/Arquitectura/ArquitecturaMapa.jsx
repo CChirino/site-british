@@ -24,7 +24,7 @@ const ArquitecturaMapa = () => {
                 </div>
             </div>
             <div className="w-3/5 text-neutral-500 text-left">
-                <img src="/static/images/mapa-arquitectura.png"  className=" pb-5 pt-16" alt="" />
+                <img src="/static/images/mapa-arquitectura.png"  className=" pb-5 pt-16 pr-5" alt="" />
             </div>
         </div>
       </div>
