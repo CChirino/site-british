@@ -6,11 +6,11 @@ const PostVillanuevaCiudadUniversitaria = () => {
       <div className="bg-zinc-500">
         <div className="flex">
             <div className="w-2/5">
-                <div className="container pl-10 pr-10">
+                <div className="container pt-6 pl-32 pr-10">
                     <img src="/static/images/gettyimages-OTTO B.jpg" className="h-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
-            <div className="w-3/5 text-white pb-10 text-left mr-20 ml-32">
+            <div className="w-3/5 text-white pt-6 text-left pr-32 ml-24">
                  <div className="container">
                     <h2 className="pt-5 pb-10 subtitle-section">La CUC post Villanueva</h2>
                     <p className="pt-1 pb-3">
