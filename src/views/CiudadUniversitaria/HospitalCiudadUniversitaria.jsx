@@ -13,7 +13,7 @@ const HospitalCiudadUniversitaria = () => {
             </div>
             <div className="w-3/5 pt-5 text-white text-left mr-24 ml-32">
                  <div className="container">
-                    <h3 className="pb-10 subtitle-section">Un nuevo hospital para una Caracas Moderna
+                    <h3 className="pb-10 subtitle-section-hospital">Un nuevo hospital para una Caracas Moderna
                     </h3>
                     <p className="pt-1 pb-3">
                     Durante los años cuarenta la insuficiencia del Hospital Vargas promueve la realización de un proyecto a través del Ministerio de Sanidad, y se vincula a la necesidad de práctica de los estudios de medicina. Esta fue la necesidad de partida y la excusa que necesito el ejecutivo nacional, al momento el palacio donde se ubicaba la Universidad Central de Venezuela no era suficiente ni moderno.
