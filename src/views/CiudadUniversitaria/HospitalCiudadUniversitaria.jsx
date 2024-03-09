@@ -7,11 +7,11 @@ const HospitalCiudadUniversitaria = () => {
       <div className="bg-zinc-500">
         <div className="flex">
             <div className="w-2/5">
-                <div className="container pt-6 pl-32 pr-10">
+                <div className="container pt-6 pl-24 pr-10">
                     <img src="/static/images/gettyimages-OTTO B.jpg" className="h-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
-            <div className="w-3/5 pt-5 text-white pt-6 text-left pr-32 ml-24">
+            <div className="w-3/5 pt-5 text-white pt-6 text-left pr-16 ml-16">
                  <div className="container">
                     <h3 className="pb-16 subtitle-section">Un nuevo hospital para una Caracas Moderna
                     </h3>
