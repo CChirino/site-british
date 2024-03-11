@@ -6,13 +6,13 @@ const MaterialidadInformacion = () => {
       <div className="bg-zinc-50">
         <div className="flex ">
             <div className="w-2/5">
-                <div className="container pl-10 pr-10">
-                    <img src="/static/images/OswALDO Vigas2-Edf Rectorado.jpg"  className="h-1/2 pb-5 pt-16" alt="" />
+                <div className="container pt-12 pl-24 pr-10">
+                    <img src="/static/images/OswALDO Vigas2-Edf Rectorado.jpg"  className="dh-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
-            <div className="w-3/5 text-neutral-500	pt-10 text-left mr-20 ml-32">
-                 <div className="container pb-10">
-                    <h2 className=" pb-10 subtitle-section ">Concreto y mosaiquillos</h2>
+            <div className="w-3/5 text-neutral-500	pt-12 text-left pr-16 ml-16">
+                 <div className="container">
+                    <h2 className="pb-7 subtitle-section ">Concreto y mosaiquillos</h2>
                     <p className="pt-1 pb-3">
                     La Ciudad Universitaria de Caracas fue un laboratorio donde experimentar las nociones de la modernidad, en un clima sumamente amable y benevolente. De esta forma el concreto se convirtió en el material noble por excelencia, esto por su maleabilidad tanto como su durabilidad. Con él pudo hacer magia y figuras, saliéndose de un sistema a porticado sencillo y jugando con las formas tanto en planta como en alzado, creando piezas escultóricas.
                     </p>
@@ -22,7 +22,7 @@ const MaterialidadInformacion = () => {
                     <p className="pt-1 pb-3 ">
                     Aparte de la evidente predominancia del concreto, otros materiales son protagonistas en la CUC, los mosaiquillos son coprotagonistas y puntos focales dentro del campus, los rojos de la torre de la biblioteca o los azules de arquitectura o farmacia, los tonos amarillo u ocre de ingeniería son composiciones que dan ritmo y crean puntos focales.
                     </p>
-                    <p className="pt-1 pb-3 ">
+                    <p className="pt-1 pb-11">
                     La materialidad dentro de la Ciudad Universitaria de Caracas está en sus elementos más sencillos, en sus colores, en cada parasol de concreto o ladrillo, en cada costilla de concreto que sostiene una cubierta, en cada mosaico que acompaña una pared.
                     </p>
                  </div>
@@ -32,13 +32,13 @@ const MaterialidadInformacion = () => {
       <div className="bg-zinc-50">
         <div className="flex ">
             <div className="w-2/5">
-                <div className="container pl-10 pr-10">
-                    <img src="/static/images/vitral leger Biblioteca central.JPG"  className="h-1/2 pb-5 pt-16" alt="" />
+                <div className="container pt-6 pl-24 pr-10">
+                    <img src="/static/images/vitral leger Biblioteca central.JPG"  className="dh-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
-            <div className="w-3/5 text-neutral-500	pt-12 text-right mr-20 ml-32">
+            <div className="w-3/5 text-neutral-500	pt-6 text-left pr-16 ml-16">
                  <div className="container pb-10">
-                    <h2 className=" pb-10 subtitle-section">La luz como material</h2>
+                    <h2 className=" pb-7 subtitle-section">La luz como material</h2>
                     <p className="pt-1 pb-1">
                     Por la ubicación geográfica de Caracas, el sol es un tema constante. Villanueva como otros contemporáneos de Latinoamérica buscaron sacar el máximo provecho de las ideas de la arquitectura moderna asentada en el contexto tropical, y el juego de la luz es quizás uno de los puntos más emblemáticos.
                     </p>
@@ -48,7 +48,7 @@ const MaterialidadInformacion = () => {
                     <p className="pt-1 pb-1">
                     Al mismo tiempo entro en juego el trabajo de la luz como otro elemento constructivo más, el uso de distintos tipos de bloque calado, muros que dejan pequeñas grietas o diferencias de altura entre techos colindantes, aberturas en los lugares menos esperados que bañan los espacios internos creando nuevas experiencias sensoriales, siempre cambiantes.
                     </p>
-                    <p className="pt-1 pb-1">
+                    <p className="pt-1 pb-20">
                     En toda la extensión de la CUC no hay dos lugares iguales, incluso si se recorren sus pasillos y sus aulas, estas son muy diferentes entre facultades, incluso en algunos casos varían dentro de un mismo edificio, en buena medida debido a su posicionamiento.
                     </p>
                  </div>
