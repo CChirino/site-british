@@ -2,6 +2,8 @@ import React from "react";
 import image from "/static/images/IMG_0094.png";
 import { Parallax } from "react-parallax";
 import { useSpring, animated } from "@react-spring/web";
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 
 const ArquitecturaMapa = () => {
@@ -31,41 +33,44 @@ const ArquitecturaMapa = () => {
         <Parallax bgImage={image} strength={100}>
             <div className="bg-opacity-75 h-90vh flex justify-center items-center" id="facultad-arquitectura">
                 <div className="flex ">
-                    <div className="w-3/5">
-                        <div className="container  pl-10 pr-10">
-                            <animated.h1 style={textAnimation} className="text-left">Facultad de Arquitectura<br/> y Urbanismo</animated.h1>
-                            <animated.p  style={textAnimation} className="text-left pt-5">El campus en pleno es un juego de paralelepípedos algos verticales y otros horizontales, formas particulares, y como se interconectan unos con otros. Patios de luz, muros calados, parasoles, son parte de los recursos utilizados por Villanueva en su laboratorio de exploraciones para dar con las mejores respuestas arquitectónicas a los desafíos del clima y la modernidad caraqueña.
-                            </animated.p>
+                    <div className="w-3/5 pl-12">
+                        <div className="container  pt-10 pl-10">
+                            <animated.h2 style={textAnimation} className="text-left">Facultad de Arquitectura<br/> y Urbanismo</animated.h2>
+                            <div className="flex">
+                                <div className="w-1/2">
+                                    <animated.p  style={textAnimation} className="text-left pt-5"> Proyecto : 1954 - 1956</animated.p>
+                                    <animated.p  style={textAnimation} className="text-left"> Construccion : 1954 - 1956</animated.p>
+                                </div>
+                                <div className="w-1/2">
+                                    <animated.p  style={textAnimation} className="text-left pt-5"> Uso original : Educacional</animated.p>
+                                    <animated.p  style={textAnimation} className="text-left"> Uso actual : Educacional</animated.p>
+                                    <img src="/static/images/Ficha de Prueba-03.png" alt="" className=" pr-12" />
+                                </div>
+                            </div>
                         </div>
-                        <ul className="flex justify-between pt-5">
-                            <li className="mr-2 ml-2">
-                                <img src="/static/images/galeria-1.jpg" alt="Imagen 1" />
-                            </li>
-                            <li className="mr-2 ml-2">
-                                <img src="/static/images/galeria-2.jpg" alt="Imagen 2" />
-                            </li>
-                            <li className="mr-2 ml-2">
-                                <img src="/static/images/galeria-3.jpg" alt="Imagen 3" />
-                            </li>
-                        </ul>
-                        <ul className="flex justify-between pt-5">
-                            <li className="mr-2 ml-2">
-                                <img src="/static/images/galeria-4.jpeg" alt="Imagen 1" />
-                            </li>
-                            <li className="mr-2 ml-2">
-                                <img src="/static/images/galeria-5.jpeg" alt="Imagen 2" />
-                            </li>
-                            <li className="mr-2 ml-2">
-                                <img src="/static/images/galeria-6.jpeg" alt="Imagen 3" />
-                            </li>
-                        </ul>
                     </div>
                     <div className="w-2/5 text-neutral-500 text-left">
-                        <animated.img  style={textAnimation} src="/static/images/facultad-arquitectura.jpeg"  className=" pb-5  pr-10 pt-16" alt="" />
+                        <animated.img  style={textAnimation} src="/static/images/facultad-arquitectura.jpeg"  className=" pb-5  pr-10 pt-16 height-map-image" alt="" />
                     </div>
                 </div>
             </div>
         </Parallax>
+        <div className="w-full">
+            <Carousel>
+                <div>
+                <img src="/static/images/EVA-01.png" alt="Image 1" />
+                <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                <img src="/static/images/EVA-03.png" alt="Image 2" />
+                <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                <img src="/static/images/EVA-04.png" alt="Image 3" />
+                <p className="legend">Legend 3</p>
+                </div>
+            </Carousel>
+        </div>
     </div>
   );
 };

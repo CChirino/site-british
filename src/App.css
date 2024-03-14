@@ -258,6 +258,11 @@ p {
   font-weight: 600;
  }
 
+ .container h2 {
+  font-size: 45px;
+  font-weight: 600;
+ }
+
 .flex p {
   font-size: 22px;
   font-weight: 300;
@@ -281,4 +286,10 @@ div a {
 .container .subtitle-section-small {
   font-size: 20px;
   font-weight: 600;
+}
+.height-map-image{
+  height: 700px;
+}
+.carousel.carousel-slider .control-arrow{
+  font-size: 60px;
 }
