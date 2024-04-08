@@ -7,6 +7,7 @@ import PatrimonioCiudadUniversitaria from '../views/CiudadUniversitaria/Patrimon
 import PatrimonioSeccionCiudadUniversitaria from '../views/CiudadUniversitaria/PatrimonioSeccionCiudadUniversitaria';
 import ActualidadCiudadUnivertaria from '../views/CiudadUniversitaria/ActualidadCiudadUnivertaria';
 import ActualidadSeccionCiudadUniversitaria from '../views/CiudadUniversitaria/ActualidadSeccionCiudadUniversitaria';
+import Timeline from '../views/CiudadUniversitaria/TimelineCiudadUniversitaria';
 import ScrollToTop from '../components/ScrollToTop';
 import FooterHome from '../components/FooterHome';
 import HeaderHome from '../components/HeaderHome';
@@ -21,6 +22,7 @@ const CiudadUniverstariaPage = () => {
             <HospitalCiudadUniversitaria/>
             <ModernismoCiudadUniversitaria/>
             <PostVillanuevaCiudadUniversitaria/>
+            <Timeline/>
             <PatrimonioCiudadUniversitaria/>
             <PatrimonioSeccionCiudadUniversitaria/>
             <ActualidadCiudadUnivertaria/>

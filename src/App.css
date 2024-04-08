@@ -288,8 +288,27 @@ div a {
   font-weight: 600;
 }
 .height-map-image{
-  height: 700px;
+  height: 800px;
 }
 .carousel.carousel-slider .control-arrow{
   font-size: 60px;
+}
+.flex .image-card-map {
+  font-size: 18px;
+
+}
+
+.timeline-title-container {
+  margin-top: 10px; /* Ajusta el espacio superior según sea necesario */
+  text-align: center;
+}
+
+.timeline-title {
+  font-size: 14px; /* Ajusta el tamaño de fuente según sea necesario */
+  color: #888888;
+}
+
+.timeline-description {
+  font-size: 12px; /* Ajusta el tamaño de fuente según sea necesario */
+  color: #888888;
 }
