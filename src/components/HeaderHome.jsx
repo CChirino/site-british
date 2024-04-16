@@ -14,41 +14,8 @@ const HeaderHome = () => {
   };
 
   return (
-    <div className={`sticky top-0 bg-neutral-500 z-50`}>
-      <div className={`flex justify-between items-center p-4`}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className={`w-6 h-6 cursor-pointer`}
-          onClick={toggleMenu}
-        >
-          <line
-            x1="6"
-            y1="12"
-            x2="18"
-            y2="12"
-            className={`text-black`}
-          ></line>
-          <line
-            x1="6"
-            y1="8"
-            x2="18"
-            y2="8"
-            className={`text-black`}
-          ></line>
-          <line
-            x1="6"
-            y1="16"
-            x2="18"
-            y2="16"
-            className={`text-black`}
-          ></line>
-        </svg>
+    <div className="sticky top-0 bg-neutral-500 z-50">
+      <div className="flex justify-between items-center p-4">
         {isOpen && (
           <div className="flex">
             <Link
@@ -78,7 +45,7 @@ const HeaderHome = () => {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className={`w-6 h-6 cursor-pointer`}
+                className="w-6 h-6 cursor-pointer"
                 onClick={toggleSubMenu}
               >
                 {isSubMenuOpen ? (
@@ -89,38 +56,26 @@ const HeaderHome = () => {
               </svg>
               {isSubMenuOpen && (
                 <div className="absolute top-full left-0 bg-neutral-500 p-2 mt-2 rounded-md">
-                  <Link
-                    to="/arquitectura"
-                    className="text-black block py-1"
-                  >
+                  <Link to="/arquitectura" className="text-black block py-1">
                     Arquitectura
                   </Link>
-                  <Link
-                    to="/arte"
-                    className="text-black block py-1"
-                  >
+                  <Link to="/arte" className="text-black block py-1">
                     Arte
                   </Link>
-                  <Link
-                    to="/paisaje"
-                    className="text-black block py-1"
-                  >
+                  <Link to="/paisaje" className="text-black block py-1">
                     Paisaje
                   </Link>
-                  <Link
-                    to="/principios"
-                    className="text-black block py-1"
-                  >
+                  <Link to="/principios" className="text-black block py-1">
                     Principios
                   </Link>
                 </div>
               )}
             </div>
             <Link
-                to="/sintesis-de-las-artes"
-                className="text-black hover:bg-gray-300 rounded hover:text-black text-lg mr-4"
-              >
-                Sintesis de las Artes
+              to="/sintesis-de-las-artes"
+              className="text-black hover:bg-gray-300 rounded hover:text-black text-lg mr-4"
+            >
+              Sintesis de las Artes
             </Link>
             <Link
               to="/proyecto-eva"
@@ -130,6 +85,21 @@ const HeaderHome = () => {
             </Link>
           </div>
         )}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="w-6 h-6 cursor-pointer ml-auto"
+          onClick={toggleMenu}
+        >
+          <line x1="18" y1="12" x2="6" y2="12" className="text-black"></line>
+          <line x1="18" y1="8" x2="6" y2="8" className="text-black"></line>
+          <line x1="18" y1="16" x2="6" y2="16" className="text-black"></line>
+        </svg>
       </div>
     </div>
   );
