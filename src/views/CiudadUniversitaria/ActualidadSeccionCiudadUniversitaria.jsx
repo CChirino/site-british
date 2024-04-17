@@ -1,6 +1,14 @@
 import React from "react";
 
+import { useSpring, animated } from "@react-spring/web";
+
 const ActualidadSeccionCiudadUniversitaria = () => {
+  const fadeInAnimation = useSpring({
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+    config: { duration: 500 },
+  });
+
   return (
     <div>
       <div className="bg-zinc-500" id="actualidad">
@@ -10,7 +18,7 @@ const ActualidadSeccionCiudadUniversitaria = () => {
                     <img src="/static/images/tierranadie.JPG" className="h-1/2 pb-5 pt-5" alt="" />
                 </div>
             </div>
-            <div className="w-3/5 text-whites pt-12 text-left pr-16 ml-16">
+            <animated.div className="w-3/5 text-whites pt-12 text-left pr-16 ml-16" style={fadeInAnimation}>
                  <div className="container">
                     <h2 className="pb-7 subtitle-section">CUC en la actualidad</h2>
                     <p className="pt-1 pb-3">
@@ -23,7 +31,7 @@ const ActualidadSeccionCiudadUniversitaria = () => {
                     Por su parte las zonas réntales se encuentran sin desarrollar, la norte quedaron las fundaciones abandonadas del edificio propuesto por Villanueva en los 50, sobre la cual se han planteado cientos de ideas y proyectos, así como concursos sin nunca avanzar más allá del papel, la zona sur se plantearon distintos proyectos entre los que destacan la sede del CONICIT y la Facultad de Ciencias Políticas y Jurídicas de finales de los 90 de Jesús Tenrreiro.
                     </p>
                  </div>
-            </div>
+            </animated.div>
         </div>
         <div className="flex pt-10 pb-10 justify-center items-center max-w-full h-3/6">
           <img src="/static/images/CUCyzonas rentales-02.png" alt="" />

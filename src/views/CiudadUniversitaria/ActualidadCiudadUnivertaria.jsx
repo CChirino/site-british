@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import ActualidadSeccionCiudadUniversitaria from "./ActualidadSeccionCiudadUniversitaria";
 
 const ActualidadCiudadUnivertaria = () => {
+  const [showActualidadSeccion, setShowActualidadSeccion] = useState(false);
+
+  const handleClick = () => {
+    setShowActualidadSeccion(true);
+  };
+
   return (
     <div id="cuc-actual">
       <div className="background-container-cuc pt-10">
@@ -9,10 +16,11 @@ const ActualidadCiudadUnivertaria = () => {
           <p> Actualmente la Ciudad Universitaria de Caracas es el campus principal de la Universidad Central de Venezuela, la más antigua, así como la más grande por número de estudiantes y profesores de Venezuela. Se trata entonces de un organismo vivo en si mismo, y sumamente activo.
           </p>
           <div className="mt-16 underline pb-16">
-              <a href="#actualidad">Conoce más</a>
+              <a href="#actualidad" onClick={handleClick}>Conoce más</a>
           </div>
         </div>
       </div>
+      {showActualidadSeccion && <ActualidadSeccionCiudadUniversitaria />}
     </div>
   );
 };

@@ -24,9 +24,7 @@ const CiudadUniverstariaPage = () => {
             <PostVillanuevaCiudadUniversitaria/>
             <Timeline/>
             <PatrimonioCiudadUniversitaria/>
-            <PatrimonioSeccionCiudadUniversitaria/>
             <ActualidadCiudadUnivertaria/>
-            <ActualidadSeccionCiudadUniversitaria/>
             <FooterHome/>
         </div>
     );
