@@ -8,9 +8,9 @@ const VideoCarlosRaul = () => {
           <video
           className="object-center w-2/3"
           autoPlay
-          muted
           loop
           playsInline
+          controls 
           src="/static/video/Entrevista Paulina Villanueva.mp4"
         />          
         </div>
