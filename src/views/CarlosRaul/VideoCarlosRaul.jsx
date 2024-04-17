@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoCarlosRaul = () => {
   return (
-    <div>
+    <div id="video">
       <div className="bg-zinc-50 pt-10 pb-32">
         <div className="flex justify-center items-center">
           <video
