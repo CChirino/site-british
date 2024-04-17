@@ -14,7 +14,7 @@ const HeaderHome = () => {
   };
 
   return (
-    <div className={`sticky top-0 ${isOpen ? "bg-neutral-500" : "bg-transparent"} z-50`}>
+    <div className={`fixed top-0 ${isOpen ? "bg-neutral-500" : "bg-transparent"} z-50 w-full`}>
       <div className="flex justify-between items-center p-4">
         {isOpen && (
           <div className="flex" style={{ position: "absolute" }}>
