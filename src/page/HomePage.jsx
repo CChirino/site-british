@@ -10,16 +10,16 @@ import HeaderHome from '../components/HeaderHome';
 
 const HomePage = () => {
     return (
-        <div>
-            <ScrollToTop/>
+        <>
             <HeaderHome />
+            <ScrollToTop/>
             <FirstView />
             <HomeView />
             <CiudadUniversitariaHomeView/>
             <CarlosHomeView/>
             <ArteHomeView/>
             <EvaHomeView/>
-        </div>
+        </>
     );
 };
 

@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import HeaderHome from "../components/HeaderHome";
-import FooterHome from "../components/FooterHome";
 
 const HomeView = () => {
   const [hoveredColumn, setHoveredColumn] = useState(null);
