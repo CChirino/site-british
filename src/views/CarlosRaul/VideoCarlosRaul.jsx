@@ -11,7 +11,7 @@ const VideoCarlosRaul = () => {
           muted
           loop
           playsInline
-          src="/static/video/MVI_3935.MP4"
+          src="/static/video/Entrevista Paulina Villanueva.mp4"
         />          
         </div>
       </div>
