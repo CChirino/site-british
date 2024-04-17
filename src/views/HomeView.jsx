@@ -29,7 +29,7 @@ const HomeView = () => {
             {hoveredColumn === 0 ? (
               <div>
                 <img
-                  src="/static/images/Portda Reloj.png"
+                  src="/static/images/Portda-Reloj.png"
                   alt=""
                   className="hovered-images"
                 />
@@ -54,14 +54,14 @@ const HomeView = () => {
             {hoveredColumn === 1 ? (
               <div>
                 <img
-                  src="/static/images/Portada Villanueva.png"
+                  src="/static/images/Fondos-Home-66.png"
                   alt=""
                   className="hovered-images"
                 />
               </div>
             ) : (
               <img
-                src="/static/images/Portada Villa.png"
+                src="/static/images/Villa-66.png"
                 alt=""
                 className="home-images"
               />
@@ -78,9 +78,8 @@ const HomeView = () => {
             <a href="#home-arte">
             {hoveredColumn === 2 ? (
               <div>
-               <p className="absolute top-36 left-1/6 right-1/6 mr-32 ml-32  text-2xl	text-gray-500 text-center	">Arquitectura, <br/> Arte y Paisaje</p>
                 <img
-                  src="/static/images/Nubes-24.png"
+                  src="/static/images/Fondos-Home-67.png"
                   alt=""
                   className="hovered-images"
                 />
@@ -104,9 +103,8 @@ const HomeView = () => {
             <a href="#home-eva">
             {hoveredColumn === 3 ? (
               <div>
-               <p className="absolute top-36 left-1/6 right-1/6 mr-20 ml-20 text-2xl	text-gray-500 text-center	">EVA: <br/> Experiencia Virtual <br /> Arquitectonica</p>
                 <img
-                  src="/static/images/Pastor-24.png"
+                  src="/static/images/Fondos-Home-68.png"
                   alt=""
                   className="hovered-images"
                 />
