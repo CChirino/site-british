@@ -15,7 +15,6 @@ const HomeView = () => {
   };
 
   return (
-    <div>
       <div className="relative">
         <div className="flex">
           <div
@@ -29,16 +28,14 @@ const HomeView = () => {
             {hoveredColumn === 0 ? (
               <div>
                 <img
-                  src="/static/images/Portda-Reloj.png"
+                  src="/static/images/Fondos-Home-65.png"
                   alt=""
-                  className="hovered-images"
                 />
               </div>
             ) : (
               <img
-                src="/static/images/mockup EVA-65.png"
+                src="/static/images/Reloj-65.png"
                 alt=""
-                className="home-images"
               />
             )}
           </a>
@@ -56,14 +53,12 @@ const HomeView = () => {
                 <img
                   src="/static/images/Fondos-Home-66.png"
                   alt=""
-                  className="hovered-images"
                 />
               </div>
             ) : (
               <img
                 src="/static/images/Villa-66.png"
                 alt=""
-                className="home-images"
               />
             )}
             </a>
@@ -81,14 +76,12 @@ const HomeView = () => {
                 <img
                   src="/static/images/Fondos-Home-67.png"
                   alt=""
-                  className="hovered-images"
                 />
               </div>
             ) : (
               <img
                 src="/static/images/mockup EVA-67 (1).png"
                 alt=""
-                className="home-images"
               />
             )}
             </a>
@@ -106,14 +99,12 @@ const HomeView = () => {
                 <img
                   src="/static/images/Fondos-Home-68.png"
                   alt=""
-                  className="hovered-images"
                 />
               </div>
             ) : (
               <img
                 src="/static/images/mockup EVA-68.png"
                 alt=""
-                className="home-images"
               />
             )}
             </a>
@@ -125,7 +116,6 @@ const HomeView = () => {
           </div>
         )}
       </div>
-    </div>
   );
 };
 
