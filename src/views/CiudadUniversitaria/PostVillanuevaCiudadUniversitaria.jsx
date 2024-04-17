@@ -2,7 +2,7 @@ import React from "react";
 
 const PostVillanuevaCiudadUniversitaria = () => {
   return (
-    <div>
+    <div id="post-cuc">
       <div className="bg-zinc-500">
         <div className="flex">
             <div className="w-2/5">
@@ -27,9 +27,6 @@ const PostVillanuevaCiudadUniversitaria = () => {
                     </p>
                  </div>
             </div>
-        </div>
-        <div className="flex justify-center items-center pt-10 pb-10" id="linea-tiempo-mapa">
-          <img src="/static/images/linea-tiempo-cuc.png" alt="" />
         </div>
         <div className="flex justify-center items-center pt-10 pb-10">
           <img src="/static/images/AereoFotos.gif" className="h-2/5 w-2/5" alt="" />

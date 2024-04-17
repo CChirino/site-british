@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import image from "/static/images/EVA-01.png";
+import image from "/static/images/Fondo CUC-01.png";
 import { useSpring, animated } from "@react-spring/web";
 
 const HomeCiudadUniversitaria = () => {
@@ -21,8 +21,17 @@ const HomeCiudadUniversitaria = () => {
             </animated.p>
           </div>
           <div className="text-container right-text">
-            <a href="#contenido">
-              <animated.h2 style={textAnimation}>Contenido</animated.h2>            
+            <a href="#hacienda">
+              <animated.h2 style={textAnimation}>Una hacienda que se convirtió en Ciudad</animated.h2>            
+            </a>
+            <a href="#hospital">
+              <animated.h2 style={textAnimation}>Un nuevo hospital para una Caracas Moderna </animated.h2>            
+            </a>
+            <a href="#modernismo">
+              <animated.h2 style={textAnimation}>De Beux Arts a Modernismo</animated.h2>            
+            </a>
+            <a href="#post-cuc">
+              <animated.h2 style={textAnimation}>La CUC post Villanueva</animated.h2>            
             </a>
             <a href="#linea-tiempo-mapa">
               <animated.h2 style={textAnimation}>Linea de Tiempo</animated.h2>

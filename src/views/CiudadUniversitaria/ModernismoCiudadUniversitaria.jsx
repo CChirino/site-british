@@ -3,7 +3,7 @@ import FooterHome from "../../components/FooterHome";
 
 const ModernismoCiudadUniversitaria = () => {
   return (
-    <div>
+    <div id="modernismo">
       <div className="bg-zinc-500">
         <div className="flex">
             <div className="w-2/5">
