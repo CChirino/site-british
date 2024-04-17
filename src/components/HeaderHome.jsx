@@ -14,7 +14,7 @@ const HeaderHome = () => {
   };
 
   return (
-    <div className="sticky top-0 bg-neutral-500 z-50">
+    <div className={`sticky top-0 ${isOpen ? "bg-neutral-500" : "bg-transparent"} z-50`}>
       <div className="flex justify-between items-center p-4">
         {isOpen && (
           <div className="flex">
@@ -93,7 +93,7 @@ const HeaderHome = () => {
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="w-6 h-6 cursor-pointer ml-auto"
+          className="w-6 h-6 cursor-pointer ml-auto" 
           onClick={toggleMenu}
         >
           <line x1="18" y1="12" x2="6" y2="12" className="text-black"></line>
