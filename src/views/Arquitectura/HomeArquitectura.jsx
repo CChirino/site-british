@@ -40,6 +40,9 @@ const HomeArquitectura = () => {
                   <a href="#piezas">
                     <animated.h2 style={textAnimation}>Piezas singulares</animated.h2>
                   </a>
+                  <a href="#mapa-arquitectura">
+                    <animated.h2 style={textAnimation}>Mapa</animated.h2>
+                  </a>
                 </div>
             </div>
           </div>

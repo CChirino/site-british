@@ -106,7 +106,7 @@ const PaisajeInformacion = () => {
             </div>
         </div>
       </div>
-      <div className="bg-zinc-50">
+      <div className="bg-zinc-50" id="mapa-paisaje">
         <img src="/static/images/paisaje.png"  className="h-1/2 pb-5 pt-16" alt="" />
       </div>
     </div>

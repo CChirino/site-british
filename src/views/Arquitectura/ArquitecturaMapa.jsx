@@ -15,7 +15,7 @@ const ArquitecturaMapa = () => {
     });
 
   return (
-    <div>
+    <div id="mapa-arquitectura">
       <div className="bg-zinc-600 pb-10 pt-10">
         <div className="flex ">
             <div className="w-2/5">

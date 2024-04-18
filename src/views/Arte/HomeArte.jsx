@@ -37,6 +37,9 @@ const HomeArte = () => {
                   <a href="#artistas">
                     <animated.h2 style={textAnimation}>Los artistas disidentes</animated.h2>
                   </a>
+                  <a href="#mapa-arte">
+                    <animated.h2 style={textAnimation}>Mapa</animated.h2>
+                  </a>
               </div>
             </div>
           </div>

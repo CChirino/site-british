@@ -71,7 +71,7 @@ const ArteInformacion = () => {
             </div>
         </div>
       </div>
-      <div className="bg-zinc-50">
+      <div className="bg-zinc-50" id="mapa-arte">
         <img src="/static/images/arte.png"  className="h-1/2 pb-5 pt-16" alt="" />
       </div>
     </div>
