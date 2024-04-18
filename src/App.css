@@ -226,8 +226,7 @@ p {
 }
 
 .right-text {
-  left: 80%;
-  right: 1%;
+  right: -60%;
   text-align: right;
 }
 
