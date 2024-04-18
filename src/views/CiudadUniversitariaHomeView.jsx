@@ -2,7 +2,7 @@ import React from "react";
 import WhiteMenu from "../components/WhiteMenu";
 import { Link } from "react-router-dom";
 import { Parallax } from "react-parallax";
-import image from "/static/images/EVA-01.png";
+import image from "/static/images/Fondo CUC-01.png";
 
 
 const CiudadUniversitariaHomeView = () => {
