@@ -11,7 +11,7 @@ const VideoCarlosRaul = () => {
           loop
           playsInline
           controls 
-          src="/static/video/Entrevista Paulina Villanueva.mp4"
+          src="/static/video/MVI_3935.MP4"
         />          
         </div>
       </div>
