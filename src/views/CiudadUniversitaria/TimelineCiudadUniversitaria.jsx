@@ -42,7 +42,10 @@ const Timeline = () => {
   const visibleSections = sections.slice(activeIndex, activeIndex + 6);
 
   return (
-    <div className="relative">
+    <div className="relative" id="cronologia-cuc">
+          <div className="text-neutral-500 text-center pt-4 pb-5">
+            <h1 className="pb-7 subtitle-section ">Cronología</h1>
+        </div>
       <div className="flex flex-wrap">
         {visibleSections.map((section, index) => (
           <div

@@ -19,7 +19,6 @@ const CiudadUniverstariaPage = () => {
             <HeaderHome />
             <HomeCiudadUniversitaria/>
             <HaciendaCiudadUniversitaria />
-            <HospitalCiudadUniversitaria/>
             <ModernismoCiudadUniversitaria/>
             <PostVillanuevaCiudadUniversitaria/>
             <Timeline/>

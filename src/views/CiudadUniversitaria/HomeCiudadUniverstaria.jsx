@@ -33,8 +33,8 @@ const HomeCiudadUniversitaria = () => {
             <a href="#post-cuc">
               <animated.h2 style={textAnimation}>La CUC post Villanueva</animated.h2>            
             </a>
-            <a href="#linea-tiempo-mapa">
-              <animated.h2 style={textAnimation}>Linea de Tiempo</animated.h2>
+            <a href="#cronologia-cuc">
+              <animated.h2 style={textAnimation}>Cronología</animated.h2>
             </a>
             <a href="#ciudad-universitaria">
               <animated.h2 style={textAnimation}>Patrimonio Mundial</animated.h2>

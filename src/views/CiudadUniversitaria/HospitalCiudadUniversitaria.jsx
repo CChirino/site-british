@@ -4,7 +4,7 @@ import FooterHome from "../../components/FooterHome";
 const HospitalCiudadUniversitaria = () => {
   return (
     <div id="hospital">
-      <div className="bg-zinc-500" style={{ backgroundImage: `url('/static/images/Fondos-02.png')`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+      <div className="bg-zinc-500" style={{ backgroundImage: `url('/static/images/Fondos-01.png')`, backgroundPosition: 'center bottom', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
         <div className="flex">
           <div className="w-2/5">
             <div className="container pt-6 pl-24 pr-10">
