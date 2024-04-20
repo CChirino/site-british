@@ -37,11 +37,11 @@ const HomeCarlosRaul = () => {
                 <a href="#ultimos">
                   <animated.h2 style={textAnimation}>Últimos años</animated.h2>
                 </a>
-                <a  href="#linea-carlos">
-                  <animated.h2 style={textAnimation}>Cronología</animated.h2>
-                </a>
                 <a href="#video">
                   <animated.h2 style={textAnimation}>Testimonios</animated.h2>
+                </a>
+                <a  href="#linea-carlos">
+                  <animated.h2 style={textAnimation}>Cronología</animated.h2>
                 </a>
               </div>
           </div>
