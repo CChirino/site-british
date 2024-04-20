@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import classNames from "classnames";
+
 
 const HeaderHome = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +14,11 @@ const HeaderHome = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const svgClasses = classNames(
+    "w-6 h-6 cursor-pointer ml-auto",
+    "hover:bg-white hover:rounded-full"
+  );
 
   return (
     <div className={`fixed top-0 ${isOpen ? "bg-neutral-500" : "bg-transparent"} z-50 w-full`}>
@@ -45,7 +52,7 @@ const HeaderHome = () => {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="w-6 h-6 cursor-pointer"
+                className={svgClasses}
                 onClick={toggleSubMenu}
               >
                 {isSubMenuOpen ? (
@@ -93,7 +100,7 @@ const HeaderHome = () => {
           strokeWidth="2"
           strokeLinecap="round"
           strokeLinejoin="round"
-          className="w-6 h-6 cursor-pointer ml-auto"
+          className={svgClasses}
           onClick={toggleMenu}
         >
           <line x1="18" y1="12" x2="6" y2="12" className="text-black"></line>
