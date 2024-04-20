@@ -316,3 +316,10 @@ div a {
   font-size: 12px; /* Ajusta el tamaño de fuente según sea necesario */
   color: #888888;
 }
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

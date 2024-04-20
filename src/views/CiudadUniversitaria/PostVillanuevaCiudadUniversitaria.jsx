@@ -1,4 +1,6 @@
 import React from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 const PostVillanuevaCiudadUniversitaria = () => {
   return (
@@ -7,7 +9,11 @@ const PostVillanuevaCiudadUniversitaria = () => {
         <div className="flex">
             <div className="w-2/5">
                 <div className="container pt-6 pl-24 pr-10">
-                    <img src="/static/images/gettyimages-OTTO B.jpg" className="h-1/2 pb-5 pt-5" alt="" />
+                    <LazyLoadImage
+                      src="/static/images/gettyimages-OTTO B.jpg"
+                      alt=""
+                      className="dh-1/2 pb-5 pt-5"
+                    />              
                 </div>
             </div>
             <div className="w-3/5 text-white pt-6 text-left pr-16 ml-16">
