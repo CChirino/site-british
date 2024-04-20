@@ -4,7 +4,7 @@ import FooterHome from "../../components/FooterHome";
 const HaciendaCiudadUniversitaria = () => {
   return (
     <>
-    <div  style={{ backgroundImage: `url('/static/images/Fondos-01.png')`, backgroundPosition: 'center top', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+    <div  style={{ backgroundImage: `url('/static/images/Fondo-01.png')`, backgroundPosition: 'center bottom', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
       <div id="hacienda">
         <div>
           <div className="flex">

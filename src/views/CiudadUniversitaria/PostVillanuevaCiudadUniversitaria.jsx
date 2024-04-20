@@ -3,7 +3,7 @@ import React from "react";
 const PostVillanuevaCiudadUniversitaria = () => {
   return (
     <div id="post-cuc">
-      <div className="bg-zinc-500"  style={{ backgroundImage: `url('/static/images/Fondos-02.png')`, backgroundPosition: 'center bottom', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+      <div className="bg-zinc-500"  style={{ backgroundImage: `url('/static/images/Fondo-03.png')`, backgroundPosition: 'center top', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
         <div className="flex">
             <div className="w-2/5">
                 <div className="container pt-6 pl-24 pr-10">
