@@ -16,20 +16,6 @@ const ArquitecturaMapa = () => {
 
   return (
     <div id="mapa-arquitectura">
-      <div className="bg-zinc-600 pb-10 pt-10">
-        <div className="flex ">
-            <div className="w-2/5">
-                <div className="container  pt-5 pl-10 pr-10">
-                    <h1>Facultad de Arquitectura<br/> y Urbanismo</h1>
-                    <img src="/static/images/Facultad de Arquitectura-Mural de Alejandro Otero.jpg"  className="h-1/2 pb-5  pt-5" alt="" />
-                    <a className=" mt-5 underline" href="#facultad-arquitectura" > Conoce mas</a>
-                </div>
-            </div>
-            <div className="w-3/5 text-neutral-500 text-left">
-                <img src="/static/images/mapa-arquitectura.png"  className=" pb-5 pt-16 pr-5" alt="" />
-            </div>
-        </div>
-      </div>
         <Parallax bgImage={image} strength={100}>
             <div className="bg-opacity-75 h-90vh flex justify-center items-center" id="facultad-arquitectura">
                 <div className="flex ">

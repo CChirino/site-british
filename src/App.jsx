@@ -9,6 +9,7 @@ import ArquitecturaPage from './page/ArquitecturaPage';
 import ArtePage from './page/ArtePage';
 import PaisajePage from './page/PaisajePage';
 import PrincipiosPage from './page/PrincipiosPage';
+import FacultadArquitecturaPage from './page/CiudadUniversitaria/FacultadArquitecturaPage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/arte" element={<ArtePage />} />
         <Route path="/paisaje" element={<PaisajePage />} />
         <Route path="/principios" element={<PrincipiosPage />} />
+        <Route path="/facultad-arquitectura" element={<FacultadArquitecturaPage />} />
       </Routes>
     </Router>
   );

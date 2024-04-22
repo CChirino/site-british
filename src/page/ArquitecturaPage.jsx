@@ -13,7 +13,6 @@ const ArquitecturaPage = () => {
             <HeaderHome />
             <HomeArquitectura/>
             <ArquitecturaInformacion/>
-            <ArquitecturaMapa/>
             <FooterHome/>
         </div>
     );
