@@ -11,51 +11,53 @@ const ArquitecturaMapa = () => {
       opacity: 1,
       transform: "translateX(0)",
       from: { opacity: 0, transform: "translateX(-100%)" },
-      delay: 500,
+      delay: 1000,
     });
 
   return (
     <div id="mapa-arquitectura">
-        <Parallax bgImage={image} strength={100}>
-            <div className="bg-opacity-75 h-90vh flex justify-center items-center" id="facultad-arquitectura">
-                <div className="flex ">
-                    <div className="w-3/5 pl-12">
-                        <div className="container  pt-10 pl-10">
-                            <animated.h2 style={textAnimation} className="text-left">Facultad de Arquitectura<br/> y Urbanismo</animated.h2>
-                            <div className="flex">
-                                <div className="w-1/2">
-                                    <animated.p   className="text-left pt-5"> Proyecto : 1954 - 1956</animated.p>
-                                    <animated.p   className="text-left image-card-map"> Construccion : 1954 - 1956</animated.p>
-                                    <animated.p   className="text-left"> Ingenieros:</animated.p>
-                                    <animated.p   className="text-left image-card-map"> R. Kaltenstadler</animated.p>
-                                    <animated.p   className="text-left image-card-map"> A. Kravtchemko</animated.p>
-                                    <animated.p   className="text-left image-card-map"> L. Arocha</animated.p>
-                                    <animated.p   className="text-left"> Dibujantes:</animated.p>
-                                    <animated.p   className="text-left image-card-map"> L.J.V. Brkich</animated.p>
-                                    <animated.p   className="text-left image-card-map"> Adele F. Lodi</animated.p>
-                                    <animated.p   className="text-left image-card-map"> L. Tarasov, M.B.</animated.p>
-                                    <animated.p   className="text-left image-card-map"> Carlos Escalona</animated.p>
-                                    <animated.p   className="text-left image-card-map"> L. Bello</animated.p>
-                                    <animated.p   className="text-left image-card-map"> F. de Llano</animated.p>
-                                    <animated.p   className="text-left image-card-map"> L. D’ Leon</animated.p>
-                                    <animated.p   className="text-left image-card-map"> R. Ulloa</animated.p>
-                                    <animated.p   className="text-left image-card-map"> G. Reyes F</animated.p>
-                                    <animated.p   className="text-left image-card-map"> G. Pérez Peña</animated.p>
-                                </div>
-                                <div className="w-1/2">
-                                    <animated.p  style={textAnimation} className="text-left pt-5"> Uso original : Educacional</animated.p>
-                                    <animated.p  style={textAnimation} className="text-left"> Uso actual : Educacional</animated.p>
-                                    <img src="/static/images/Ficha de Prueba-03.png" alt="" className=" pr-12" />
+        <div>
+            <Parallax bgImage={image} strength={100} >
+                <div className="bg-opacity-75 h-90vh flex justify-center items-center" id="facultad-arquitectura">
+                    <div className="flex ">
+                        <div className="w-3/5 pl-12">
+                            <div className="container  pt-10 pl-10">
+                                <h2 className="text-left">Facultad de Arquitectura<br/> y Urbanismo</h2>
+                                <div className="flex">
+                                    <div className="w-1/2">
+                                        <p   className="text-left pt-6"> Proyecto : 1954 - 1956</p>
+                                        <p   className="text-left"> Construccion : 1954 - 1956</p>
+                                        <p   className="text-left"> Ingenieros:</p>
+                                        <p   className="text-left image-card-map"> R. Kaltenstadler</p>
+                                        <p   className="text-left image-card-map"> A. Kravtchemko</p>
+                                        <p   className="text-left image-card-map"> L. Arocha</p>
+                                        <p   className="text-left"> Dibujantes:</p>
+                                        <p   className="text-left image-card-map"> L.J.V. Brkich</p>
+                                        <p   className="text-left image-card-map"> Adele F. Lodi</p>
+                                        <p   className="text-left image-card-map"> L. Tarasov, M.B.</p>
+                                        <p   className="text-left image-card-map"> Carlos Escalona</p>
+                                        <p   className="text-left image-card-map"> L. Bello</p>
+                                        <p   className="text-left image-card-map"> F. de Llano</p>
+                                        <p   className="text-left image-card-map"> L. D’ Leon</p>
+                                        <p   className="text-left image-card-map"> R. Ulloa</p>
+                                        <p   className="text-left image-card-map"> G. Reyes F</p>
+                                        <p   className="text-left image-card-map"> G. Pérez Peña</p>
+                                    </div>
+                                    <div className="w-1/2">
+                                        <p className="text-left pt-5"> Uso original : Educacional</p>
+                                        <p className="text-left"> Uso actual : Educacional</p>
+                                        <img src="/static/images/Ficha de Prueba-03.png" alt="" className=" pr-12 mt-5" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="w-2/5 text-neutral-500 text-left">
-                        <animated.img  style={textAnimation} src="/static/images/facultad-arquitectura.jpeg"  className=" pb-5  pr-10 pt-16 height-map-image" alt="" />
+                        <div className="w-2/5 text-neutral-500 text-left">
+                            <img src="/static/images/facultad-arquitectura.jpeg"  className=" pb-5  pr-10 pt-16 height-map-image" alt="" />
+                        </div>
                     </div>
                 </div>
-            </div>
-        </Parallax>
+            </Parallax>
+        </div>
         <div className="w-full">
             <Carousel>
                 <div>
