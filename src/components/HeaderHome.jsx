@@ -75,6 +75,9 @@ const HeaderHome = () => {
                   <Link to="/principios" className="text-black block py-1">
                     Principios
                   </Link>
+                  <Link to="/facultad-arquitectura" className="text-black block py-1">
+                    Facultad Arquitectura
+                  </Link>
                 </div>
               )}
             </div>
