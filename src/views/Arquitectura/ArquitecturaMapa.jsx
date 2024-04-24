@@ -1,5 +1,5 @@
 import React from "react";
-import image from "/static/images/IMG_0094.png";
+import image from "/static/images/FAUpng-01.png";
 import { Parallax } from "react-parallax";
 import { useSpring, animated } from "@react-spring/web";
 import { Carousel } from 'react-responsive-carousel';
