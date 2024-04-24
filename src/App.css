@@ -228,6 +228,7 @@ p {
 .right-text {
   right: -60%;
   text-align: right;
+  bottom:22%;
 }
 
 .text-container h1 {
@@ -278,13 +279,19 @@ div a {
 }
 
 .container .subtitle-section {
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
 }
 
 .subtitle-section{
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+}
+.container .text-section{
+  font-size: 23px;
+  
 }
 
 .container .subtitle-section-small {
