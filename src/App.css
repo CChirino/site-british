@@ -263,6 +263,12 @@ p {
   font-weight: 600;
  }
 
+ .container h3 {
+  font-size: 35px;
+  font-weight: 600;
+ }
+
+
 .flex p {
   font-size: 22px;
   font-weight: 300;

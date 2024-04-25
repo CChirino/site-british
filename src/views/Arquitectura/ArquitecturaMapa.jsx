@@ -18,12 +18,12 @@ const ArquitecturaMapa = () => {
     <div id="mapa-arquitectura">
         <div>
             <Parallax bgImage={image} strength={100} >
-                <div className="bg-opacity-75 h-90vh flex justify-center items-center" id="facultad-arquitectura">
+                <div className="bg-opacity-75 h-100vh flex justify-center items-center" id="facultad-arquitectura">
                     <div className="flex ">
                         <div className="w-3/6 pl-5">
                             <div className="container  pt-10 pl-4">
                                 <h2 className="text-left ">Facultad de Arquitectura y Urbanismo </h2>
-                                <h2 className="text-left ">Sector VI </h2>
+                                <h3 className="text-left subtitle-section ">Sector VI </h3>
                                 <div className="flex">
                                     <div className="w-1/2">
                                         <h2 className="text-left text-section pt-2">Ficha Tecnica </h2>
@@ -44,10 +44,10 @@ const ArquitecturaMapa = () => {
                                         <p   className="text-left image-card-map text-section"> R. Ulloa</p>
                                         <p   className="text-left image-card-map text-section"> G. Reyes F</p>
                                         <p   className="text-left image-card-map text-section"> G. Pérez Peña</p>
+                                        <p className="text-left pt-2"> Uso original : Educacional</p>
+                                        <p className="text-left"> Uso actual : Educacional</p>
                                     </div>
                                     <div className="w-1/2">
-                                        <p className="text-left pt-5"> Uso original : Educacional</p>
-                                        <p className="text-left"> Uso actual : Educacional</p>
                                         <img src="/static/images/Ficha de Prueba-03.png" alt="" className=" mr-24 mt-5 w-full" />
                                     </div>
                                 </div>
@@ -73,21 +73,17 @@ const ArquitecturaMapa = () => {
                 </div>
             </Carousel>
         </div>
-        <Parallax bgImage={image} strength={100}>
-            <div className="bg-opacity-75 h-90vh flex justify-center items-center" id="facultad-arquitectura">
-                <div className="flex ">
+        <div  style={{ backgroundImage: `url('/static/images/Fondo-01.png')`, backgroundPosition: 'center bottom', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                <div className="flex  pb-12">
                     <div className="w-1/2 pl-12">
-                        <div className="container  pt-10 pl-10">
+                        <div className="container">
+                            <h3 className="text-center subtitle-section  pt-12">Subtitulo </h3>
                             <animated.p   className="text-left pt-5 text-section">
                             El edificio de la Facultad de Arquitectura y Urbanismo reúne dos temas, el cuerpo horizontal, con las zonas comunes y el taller, resuelto en una sucesión de espacios cambiantes, y la torre que alberga las aulas. Desde el exterior, la variedad y complejidad de sus volúmenes expresa la creación de formas abstractas que caracteriza la obra de Villanueva en este período.
                             </animated.p>
                             <animated.p   className="text-left pt-5 text-section">
                             Se compone a partir de dos ejes perpendiculares establecidos por pasillos cubiertos que permiten el acceso. El recorrido desde estos pasillos y a lo largo de toda una planta baja constituye una experiencia incomparable. Los espacios cambian constantemente a través de diferentes niveles en los techos, los lucernarios, el movimiento de los muros de bloques macizos o huecos y las obras de arte que los acompañan. La variedad de cubiertas en los talleres de planta libre demuestra el interés de Villanueva por experimentar con estructuras. El auditorio y la sala de exposiciones son el punto culminante del recorrido, con las rampas, cubiertas, murales y móviles, a través de los cuales se archiva un espacio de sorprendente dinamismo.
                             </animated.p>
-                        </div>
-                    </div>
-                    <div className="w-1/2 text-left">
-                        <div className="container  pt-10 pl-10">
                             <animated.p   className="text-left pt-5 text-section">
                             La torre alta es uno de los hitos verticales de todo el conjunto. Aloja las aulas en un volumen de planta rectangular y estructura porticada que se dinamiza mediante elementos destacados y articulados: el cuerpo de los ascensores y la escalera principal, las cubiertas plegadas en la terraza y la escalera de emergencia como elemento escultórico y transparente. . Las fachadas norte y sur están protegidas por parasoles de hormigón y bloques huecos, cuyo ritmo tridimensional, asociado a la estructura, produce un efecto de gran belleza. Las fachadas más estrechas, hacia el este y el oeste, las direcciones de mayor golpe de calor, son ciegas y muestran la presencia constante del arte como parte integral de la concepción arquitectónica, con el mural de Alejandro Otero.
                             </animated.p>
@@ -96,9 +92,12 @@ const ArquitecturaMapa = () => {
                             </animated.p>
                         </div>
                     </div>
+                    <div className="w-1/2 text-left">
+                        <div className="container  pt-10 pl-10">
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </Parallax>
+        </div>
     </div>
   );
 };
