@@ -10,7 +10,7 @@ const HaciendaCiudadUniversitaria = () => {
       <div id="hacienda">
         <div>
           <div className="flex">
-            <div className="w-2/5">
+            <div className="w-3/6">
               <div className="container pt-12 pl-24 pr-10">
                   <LazyLoadImage
                     src="/static/images/EVA1-18.png"
@@ -24,7 +24,7 @@ const HaciendaCiudadUniversitaria = () => {
                   />
               </div>
             </div>
-            <div className="w-3/5 text-white	pt-12 text-left pr-16 ml-16">
+            <div className="w-3/6 text-white	pt-12 text-left pr-16 ml-16">
               <div className="container">
                 <h3 className="subtitle-section ">Una Hacienda que se convirtió en Ciudad </h3>
                 <p className="pt-3 pb-3 text-section">
@@ -45,7 +45,7 @@ const HaciendaCiudadUniversitaria = () => {
       <div id="hospital">
         <div>
           <div className="flex">
-            <div className="w-2/5">
+            <div className="w-3/6	">
               <div className="container pt-6 pl-24 pr-10">
                 <LazyLoadImage
                       src="/static/images/gettyimages-OTTO B.jpg"
@@ -54,7 +54,7 @@ const HaciendaCiudadUniversitaria = () => {
                     />              
               </div>
             </div>
-            <div className="w-3/5 pt-5 text-white pt-6 text-left pr-16 ml-16">
+            <div className="w-3/6	 pt-5 text-white pt-6 text-left pr-16 ml-16">
               <div className="container">
                 <h3 className="subtitle-section">Un nuevo hospital para una Caracas Moderna</h3>
                 <p className="pt-3 text-section">
