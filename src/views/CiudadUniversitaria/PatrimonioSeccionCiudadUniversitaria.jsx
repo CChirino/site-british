@@ -12,7 +12,7 @@ const PatrimonioSeccionCiudadUniversitaria = () => {
     <div>
       <div className="bg-zinc-500" id="patrimonio">
         <div className="flex">
-          <div className="w-2/5">
+          <div className="w-3/6">
             <div className="container pt-12 pl-24 pr-10">
               <img
                 src="/static/images/Estadio Olimpico Universitario.jpg"
@@ -27,12 +27,12 @@ const PatrimonioSeccionCiudadUniversitaria = () => {
             </div>
           </div>
           <animated.div
-            className="w-3/5 text-white pt-12 text-left pr-16 ml-16"
+            className="w-3/6 text-white pt-12 text-left pr-16 ml-16"
             style={fadeInAnimation}
           >
             <div className="container">
               <h2 className="pb-7 subtitle-section">Patrimonio Mundial</h2>
-              <p className="pt-1 pb-3">
+              <p className="pt-1 pb-3 text-section">
                 En 1998 un equipo capitaneado por los arquitectos Ana María
                 Marín, María Fernanda Jaua, Gilda Scorza y David Guzmán, se
                 dedico a levantar un completo informe para la Organización de
@@ -42,22 +42,22 @@ const PatrimonioSeccionCiudadUniversitaria = () => {
                 Caracas, así como su nivel de conservación para el momento de
                 elaboración.
               </p>
-              <p className="pt-1 pb-3">
+              <p className="pt-1 pb-3 text-section">
                 La UNESCO tomo el asunto en sus manos en la segunda mitad de
                 1999 una comisión técnica visito el país para poder constatar
                 con sus expertos. La Ciudad Universitaria cumplía los requisitos
                 i y iv del patrimonio mundial.
               </p>
-              <p className="pt-1 pb-3">
+              <p className="pt-1 pb-3 text-section">
                 i) representar una obra de arte del genio creador humano.
               </p>
-              <p className="pt-1 pb-3">
+              <p className="pt-1 pb-3 text-section">
                 iv) constituir un ejemplo eminentemente representativo de un
                 tipo de construcción o de conjunto arquitectónico o tecnológico,
                 o de paisaje que ilustre uno o varios periodos significativos de
                 la historia humana.
               </p>
-              <p className="pt-1 pb-3">
+              <p className="pt-1 pb-3 text-section">
                 El comité de expertos pidió explícitamente la creación de un
                 nuevo instituto que sirviese de nexo entre la UNESCO, el
                 ministerio de cultura y la universidad; de esta forma nacio el
@@ -67,7 +67,7 @@ const PatrimonioSeccionCiudadUniversitaria = () => {
                 difundir sus valores culturales en concordancia de su propia
                 dinámica.
               </p>
-              <p className="pt-1 pb-20">
+              <p className="pt-1 pb-20 text-section">
                 Igualmente, está orientado a garantizar a las generaciones,
                 presentes y futuras, el aprovechamiento y disfrute del
                 patrimonio cultural de la UCV, así como la transmisión y
