@@ -1,5 +1,5 @@
 import React from "react";
-import image from "/static/images/FAUpng-01.png";
+import image from "/static/images/FAU-01.png";
 import { Parallax } from "react-parallax";
 import { useSpring, animated } from "@react-spring/web";
 import { Carousel } from 'react-responsive-carousel';
@@ -20,13 +20,14 @@ const ArquitecturaMapa = () => {
             <Parallax bgImage={image} strength={100} >
                 <div className="bg-opacity-75 h-90vh flex justify-center items-center" id="facultad-arquitectura">
                     <div className="flex ">
-                        <div className="w-3/6 pl-12">
-                            <div className="container  pt-10 pl-10">
-                                <h2 className="text-left subtitle-section">Sector VI facultad de arquitectura y urbanismo </h2>
-                                <h2 className="text-left text-section mt-5">Ficha Tecnica </h2>
+                        <div className="w-3/6 pl-5">
+                            <div className="container  pt-10 pl-4">
+                                <h2 className="text-left ">Facultad de Arquitectura y Urbanismo </h2>
+                                <h2 className="text-left ">Sector VI </h2>
                                 <div className="flex">
                                     <div className="w-1/2">
-                                        <p   className="text-left pt-6  text-section"> Proyecto : 1954 - 1956</p>
+                                        <h2 className="text-left text-section pt-2">Ficha Tecnica </h2>
+                                        <p   className="text-left pt-2  text-section"> Proyecto : 1954 - 1956</p>
                                         <p   className="text-left text-section"> Construccion : 1954 - 1956</p>
                                         <p   className="text-left text-section"> Ingenieros:</p>
                                         <p   className="text-left image-card-map text-section"> R. Kaltenstadler</p>
@@ -47,7 +48,7 @@ const ArquitecturaMapa = () => {
                                     <div className="w-1/2">
                                         <p className="text-left pt-5"> Uso original : Educacional</p>
                                         <p className="text-left"> Uso actual : Educacional</p>
-                                        <img src="/static/images/Ficha de Prueba-03.png" alt="" className=" mr-24 mt-5 w-9/12" />
+                                        <img src="/static/images/Ficha de Prueba-03.png" alt="" className=" mr-24 mt-5 w-full" />
                                     </div>
                                 </div>
                             </div>
