@@ -5,11 +5,17 @@ const Timeline = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleNext = () => {
-    setActiveIndex((prevIndex) => prevIndex + 1);
+    setActiveIndex((prevIndex) => {
+      const nextIndex = prevIndex + 1;
+      return nextIndex <= sections.length ? nextIndex : 0; 
+    });
   };
 
   const handlePrev = () => {
-    setActiveIndex((prevIndex) => prevIndex - 1);
+    setActiveIndex((prevIndex) => {
+      const nextIndex = prevIndex - 1;
+      return nextIndex >= 0 ? nextIndex : prevIndex;
+    });
   };
 
   const sections = [
