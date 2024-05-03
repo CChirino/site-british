@@ -1,4 +1,5 @@
 import React from "react";
+import MapComponent from "../../components/MapComponent";
 
 const ArquitecturaInformacion = () => {
   return (
@@ -93,8 +94,8 @@ const ArquitecturaInformacion = () => {
                     <a className=" mt-5 underline" href="/facultad-arquitectura" > Conoce mas</a>
                 </div>
             </div>
-            <div className="w-3/5 text-neutral-500 text-left">
-                <img src="/static/images/mapa-arquitectura.png"  className=" pb-5 pt-16 pr-5" alt="" />
+            <div className="w-3/5 text-neutral-500 text-left mr-6 mt-12">
+                <MapComponent/>
             </div>
         </div>
       </div>
