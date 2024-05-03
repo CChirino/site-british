@@ -12,7 +12,7 @@ const MapComponent = () => {
 
   useEffect(() => {
     // Inicializar el mapa de Leaflet.js
-    const map = L.map('map').setView([10.4806, -66.8295], 15);
+    const map = L.map('map').setView([10.4905863,-66.8931011], 15);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
