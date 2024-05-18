@@ -33,9 +33,9 @@ const FirstView = () => {
             style={zoomAnimation}
           />
         </div>
-        <div className="absolute top-30 right-40 flex flex-col mt-10 mr-52">
-          <button className="text-white px-4 py-2 mb-2">Español</button>
-          <button className="text-white px-4 py-2">English</button>
+        <div className="absolute end-1/3	 flex flex-col mt-10" style={{ marginRight: "16%", marginTop:"7%" }}>
+          <p className="text-black px-4 py-2 mb-2" style={{ transform: "rotate(-45deg)" }}>Español</p>
+          <p className="text-black px-4 py-2" style={{ transform: "rotate(-45deg)", marginRight: "15%" }}>English</p>
         </div>
         <div className="flex flex-col items-center pt-3">
           <img

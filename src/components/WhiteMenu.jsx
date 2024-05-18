@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-
 const WhiteMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -23,20 +22,35 @@ const WhiteMenu = () => {
         } transition-transform duration-300 ease-in-out`}
       >
         {isOpen && (
-          <nav className="flex mt-6 mr-24	">
-            <Link to="/" className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg">
+          <nav className="flex mt-6 mr-24">
+            <Link
+              to="/"
+              className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg"
+            >
               Pagina Principal
             </Link>
-            <Link to="/ciudad-universitaria" className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg">
+            <Link
+              to="/ciudad-universitaria"
+              className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg"
+            >
               La Ciudad Universitaria
             </Link>
-            <Link to="/carlos-raul-villanueva" href="#" className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg">
+            <Link
+              to="/carlos-raul-villanueva"
+              className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg"
+            >
               Carlos Raul Villanueva
             </Link>
-            <Link to="/sintesis-de-las-artes" className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg">
+            <Link
+              to="/sintesis-de-las-artes"
+              className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg"
+            >
               Sintesis de las Artes
             </Link>
-            <Link to="/proyecto-eva" className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg" >
+            <Link
+              to="/proyecto-eva"
+              className="px-4 text-white hover:bg-gray-200 rounded hover:text-black text-lg"
+            >
               Proyecto EVA
             </Link>
           </nav>
@@ -50,12 +64,12 @@ const WhiteMenu = () => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className={`absolute top-4 right-4 z-50 w-10 h-10 cursor-pointer`}
+        className="absolute top-4 right-4 z-50 w-10 h-10 cursor-pointer"
         onClick={toggleMenu}
       >
-      <line x1="6" y1="12" x2="18" y2="12" className="text-white"></line>
-      <line x1="6" y1="8" x2="18" y2="8" className="text-white"></line>
-      <line x1="6" y1="16" x2="18" y2="16" className="text-white"></line>
+        <line x1="6" y1="12" x2="18" y2="12" stroke="white"></line>
+        <line x1="6" y1="8" x2="18" y2="8" stroke="white"></line>
+        <line x1="6" y1="16" x2="18" y2="16" stroke="white"></line>
       </svg>
     </div>
   );
