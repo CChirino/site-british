@@ -29,6 +29,8 @@ const ArquitecturaMapa = () => {
                                         <h2 className="text-left text-section pt-2">Ficha Tecnica </h2>
                                         <p   className="text-left pt-2  text-section"> Proyecto : 1954 - 1956</p>
                                         <p   className="text-left text-section"> Construccion : 1954 - 1956</p>
+                                        <h2   className="text-left text-section font-bold"> Arquitecto:</h2>
+                                        <h2   className="text-left text-section font-bold"> Carlos Raúl Villanueva</h2>
                                         <h2   className="text-left text-section font-bold"> Ingenieros:</h2>
                                         <p   className="text-left image-card-map text-section"> R. Kaltenstadler</p>
                                         <p   className="text-left image-card-map text-section"> A. Kravtchemko</p>
@@ -48,7 +50,7 @@ const ArquitecturaMapa = () => {
                                         <p className="text-left image-card-map text-section"> Uso actual : Educacional</p>
                                     </div>
                                     <div className="w-1/2">
-                                        <img src="/static/images/Ficha de Prueba-03.png" alt="" className=" mr-24 mt-5 w-full" />
+                                        <img src="/static/images/Facultad de Arquitectura_planta-01.png" alt="" className=" mr-24 mt-5 w-full" />
                                     </div>
                                 </div>
                             </div>
@@ -70,6 +72,9 @@ const ArquitecturaMapa = () => {
                 </div>
                 <div>
                 <img src="/static/images/galeria-6.jpeg" alt="Image 4" />
+                </div>
+                <div>
+                <img src="/static/images/Facultad de Arquitectura_planta-01.png" alt="Image 5" />
                 </div>
             </Carousel>
         </div>
