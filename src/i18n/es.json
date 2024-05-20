@@ -1,0 +1,29 @@
+{
+    "homeUniversity": {
+      "title": "La Ciudad Universitaria de Caracas",
+      "subtitle": "La utopía moderna construida",
+      "quote": "“La Ciudad Universitaria es la utopía moderna construida. Representa el anhelo por alcanzar un mundo ideal de perfección para una sociedad y un hombre nuevos… propone la realización de un mundo ideal de belleza y poesía, donde las formas y estructuras expresan el espíritu de los nuevos tiempos, y donde las artes pasan a formar parte esencial del lugar habitado por los hombres.”",
+      "author": "María Fernanda Jaua. Ciudad Universitaria de Caracas: La construcción de una utopía moderna.",
+      "learn_more": "Conoce más"
+    },
+    "carlos": {
+      "title": "Carlos Raúl Villanueva",
+      "subtitle": "El maestro del trópico moderno",
+      "description": "El arquitecto de mayor relevancia a nivel nacional e internacional de Venezuela, diseñador de una invaluable cantidad de obras de carácter público, laureado por la Síntesis de las Artes en la Ciudad Universitaria de Caracas, por UNESCO.",
+      "learn_more": "Conoce más"
+    },
+    "arte": {
+      "title": "Arquitectura, Arte y Paisaje",
+      "subtitle": "Manifestaciones de la Síntesis de las Artes en la Ciudad Universitaria de Caracas",
+      "description1": "Según UNESCO “la creación de un nuevo organismo arquitectónico-escultórico-pictórico, donde no se nota ninguna grieta entre las distintas expresiones”",
+      "description2": "La Síntesis se da de manera absolutamente orgánica: esta obra no podría existir en otra parte, y el edificio sería otro sin ella.",
+      "author": "Federica Palomero sobre el Aula Magna y las Nubes de Calder.",
+      "learn_more": "Conoce más"
+    },
+    "eva": {
+      "title": "Experiencia Virtual Arquitectónica",
+      "description1": "Estamos comprometidos en explorar una nueva forma de interactuar con la arquitectura, el arte y el paisaje en la ciudad. Con este proyecto reconocemos el valor de la Síntesis de las Artes como principio arquitectónico de impacto urbano, a través de una HUB virtual de consulta interactiva.",
+      "description2": "La Ciudad Universitaria de Caracas se convierte en el primer escenario de EVA.",
+      "learn_more": "Conoce más"
+    }
+  }

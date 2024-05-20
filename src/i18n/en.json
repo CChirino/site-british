@@ -1,0 +1,29 @@
+{
+    "homeUniversity": {
+      "title": "The University City of Caracas",
+      "subtitle": "The modern utopia built",
+      "quote": "“The University City is the modern utopia built. It represents the yearning to achieve an ideal world of perfection for a new society and a new man… it proposes the realization of an ideal world of beauty and poetry, where forms and structures express the spirit of the new times, and where the arts become an essential part of the place inhabited by men.”",
+      "author": "María Fernanda Jaua. University City of Caracas: The construction of a modern utopia.",
+      "learn_more": "Learn more"
+    },
+    "carlos": {
+      "title": "Carlos Raúl Villanueva",
+      "subtitle": "The master of modern tropics",
+      "description": "The most prominent architect at the national and international level in Venezuela, designer of an invaluable number of public works, awarded for the Synthesis of the Arts in the University City of Caracas by UNESCO.",
+      "learn_more": "Learn more"
+    },
+    "arte": {
+      "title": "Architecture, Art and Landscape",
+      "subtitle": "Manifestations of the Synthesis of the Arts in the University City of Caracas",
+      "description1": "According to UNESCO “the creation of a new architectural-sculptural-pictorial organism, where no crack is noticed between the different expressions”",
+      "description2": "The Synthesis occurs in an absolutely organic way: this work could not exist elsewhere, and the building would be different without it.",
+      "author": "Federica Palomero on the Aula Magna and Calder's Clouds.",
+      "learn_more": "Learn more"
+    },
+    "eva": {
+      "title": "Virtual Architectural Experience",
+      "description1": "We are committed to exploring a new way of interacting with architecture, art, and landscape in the city. With this project, we recognize the value of the Synthesis of the Arts as an architectural principle of urban impact through an interactive consultation virtual HUB.",
+      "description2": "The University City of Caracas becomes the first setting for EVA.",
+      "learn_more": "Learn more"
+    }
+}

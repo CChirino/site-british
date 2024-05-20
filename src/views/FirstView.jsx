@@ -1,9 +1,15 @@
 import React from "react";
 import { useSpring, animated } from "@react-spring/web";
 import Header from "../components/Header";
+import { useTranslation } from 'react-i18next';
 
 const FirstView = () => {
   const [isImageHovered, setIsImageHovered] = React.useState(false);
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   const handleMouseEnter = () => {
     setIsImageHovered(true); // Establecer isImageHovered en true cuando el mouse entra en la imagen
@@ -34,8 +40,8 @@ const FirstView = () => {
           />
         </div>
         <div className="absolute end-1/3	 flex flex-col mt-10" style={{ marginRight: "16%", marginTop:"7%" }}>
-          <p className="text-black px-4 py-2 mb-2" style={{ transform: "rotate(-45deg)" }}>Español</p>
-          <p className="text-black px-4 py-2" style={{ transform: "rotate(-45deg)", marginRight: "15%" }}>English</p>
+          <p className="text-black px-4 py-2 mb-2" style={{ transform: "rotate(-45deg)" }} onClick={() => changeLanguage('es')}>Español</p>
+          <p className="text-black px-4 py-2" style={{ transform: "rotate(-45deg)", marginRight: "15%" }} onClick={() => changeLanguage('en')}>English</p>
         </div>
         <div className="flex flex-col items-center pt-3">
           <img

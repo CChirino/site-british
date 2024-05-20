@@ -10,7 +10,7 @@ import ArtePage from './page/ArtePage';
 import PaisajePage from './page/PaisajePage';
 import PrincipiosPage from './page/PrincipiosPage';
 import FacultadArquitecturaPage from './page/CiudadUniversitaria/FacultadArquitecturaPage';
-
+import './i18n'; 
 function App() {
   return (
     <Router>
