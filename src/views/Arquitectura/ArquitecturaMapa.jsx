@@ -25,10 +25,12 @@ const ArquitecturaMapa = () => {
                                 <h2 className="text-left ">Facultad de Arquitectura y Urbanismo </h2>
                                 <h3 className="text-left subtitle-section ">Sector VI </h3>
                                 <div className="flex">
-                                    <div className="w-1/2">
+                                    <div className="w-full">
                                         <h2 className="text-left text-section pt-2">Ficha Tecnica </h2>
                                         <p   className="text-left pt-2  text-section"> Proyecto : 1954 - 1956</p>
                                         <p   className="text-left text-section"> Construccion : 1954 - 1956</p>
+                                        <h2   className="text-left text-section font-bold"> Uso original : Educacional</h2>
+                                        <h2   className="text-left text-section font-bold"> Uso actual : Educacional</h2>
                                         <h2   className="text-left text-section font-bold"> Arquitecto:</h2>
                                         <h2   className="text-left text-section font-bold"> Carlos Raúl Villanueva</h2>
                                         <h2   className="text-left text-section font-bold"> Ingenieros:</h2>
@@ -46,11 +48,6 @@ const ArquitecturaMapa = () => {
                                         <p   className="text-left image-card-map text-section"> R. Ulloa</p>
                                         <p   className="text-left image-card-map text-section"> G. Reyes F</p>
                                         <p   className="text-left image-card-map text-section"> G. Pérez Peña</p>
-                                        <p className="text-left  pt-2 image-card-map text-section"> Uso original : Educacional</p>
-                                        <p className="text-left image-card-map text-section"> Uso actual : Educacional</p>
-                                    </div>
-                                    <div className="w-1/2">
-                                        <img src="/static/images/Facultad de Arquitectura_planta-01.png" alt="" className=" mr-24 mt-5 w-full" />
                                     </div>
                                 </div>
                             </div>
