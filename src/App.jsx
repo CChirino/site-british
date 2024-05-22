@@ -10,6 +10,8 @@ import ArtePage from './page/ArtePage';
 import PaisajePage from './page/PaisajePage';
 import PrincipiosPage from './page/PrincipiosPage';
 import FacultadArquitecturaPage from './page/CiudadUniversitaria/FacultadArquitecturaPage';
+import BibliotecaCentralPage from './page/CiudadUniversitaria/BibliotecaCentralPage';
+import FacultadHumanidadesPage from './page/CiudadUniversitaria/FacultadHumanidadesPage';
 import './i18n'; 
 function App() {
   return (
@@ -25,6 +27,9 @@ function App() {
         <Route path="/paisaje" element={<PaisajePage />} />
         <Route path="/principios" element={<PrincipiosPage />} />
         <Route path="/facultad-arquitectura" element={<FacultadArquitecturaPage />} />
+        <Route path="/biblioteca-central" element={<BibliotecaCentralPage />} />
+        <Route path="/facultad-humanidades" element={<FacultadHumanidadesPage />} />
+
       </Routes>
     </Router>
   );
