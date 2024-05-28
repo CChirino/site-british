@@ -1,20 +1,48 @@
-// BuildingMarker.js
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import L from 'leaflet';
+import markerIconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png';
+import markerIconUrl from 'leaflet/dist/images/marker-icon.png';
+import markerShadowUrl from 'leaflet/dist/images/marker-shadow.png';
+
+// Definir el icono personalizado
+const customIcon = new L.Icon({
+  iconRetinaUrl: markerIconRetinaUrl,
+  iconUrl: markerIconUrl,
+  shadowUrl: markerShadowUrl,
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
 
 const BuildingMarker = ({ building, onMarkerClick, mapRef }) => {
-  const markerRef = React.useRef(null);
+  const markerRef = useRef(null);
 
-  React.useEffect(() => {
-    // Crear un marcador de Leaflet.js con la información del edificio
-    const marker = L.marker(building.coordinates).addTo(mapRef);
-    marker.on('click', () => onMarkerClick(building));
-    markerRef.current = marker;
+  useEffect(() => {
+    if (mapRef) {
+      // Crear un marcador de Leaflet.js con la información del edificio y el icono personalizado
+      const marker = L.marker(building.coordinates, { icon: customIcon })
+        .addTo(mapRef)
+        .bindPopup(`
+          <b>${building.name}</b><br>
+          ${building.description}<br>
+          <a href="${building.link}" target="_blank">Más información</a>
+        `);
 
-    return () => {
-      // Eliminar el marcador del mapa al desmontar el componente
-      mapRef.removeLayer(marker);
-    };
+      marker.on('click', () => {
+        onMarkerClick(building);
+        marker.openPopup();
+      });
+
+      markerRef.current = marker;
+
+      return () => {
+        // Eliminar el marcador del mapa al desmontar el componente
+        if (mapRef && mapRef.hasLayer(marker)) {
+          mapRef.removeLayer(marker);
+        }
+      };
+    }
   }, [building, onMarkerClick, mapRef]);
 
   return null;

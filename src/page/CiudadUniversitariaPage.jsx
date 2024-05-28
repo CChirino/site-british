@@ -10,6 +10,7 @@ import ActualidadCiudadUnivertaria from '../views/CiudadUniversitaria/Actualidad
 import ScrollToTop from '../components/ScrollToTop';
 import FooterHome from '../components/FooterHome';
 import HeaderHome from '../components/HeaderHome';
+import MapComponent from '../components/MapComponent';
 
 const CiudadUniversitariaPage = () => {
   const [loading, setLoading] = useState(true);
@@ -44,6 +45,7 @@ const CiudadUniversitariaPage = () => {
           <ModernismoCiudadUniversitaria />
           <PostVillanuevaCiudadUniversitaria />
           <Timeline />
+          <MapComponent />
           <PatrimonioCiudadUniversitaria />
           <ActualidadCiudadUnivertaria />
           <FooterHome />
