@@ -18,7 +18,7 @@ const FichaFacultadHumanidades = () => {
     <div id="mapa-arquitectura">
         <div>
             <Parallax bgImage={image} strength={100} >
-                <div className="bg-opacity-75 h-100vh flex justify-center items-center" id="facultad-arquitectura">
+                <div id="facultad-arquitectura">
                     <div className="flex ">
                         <div className="w-3/6 pl-5">
                             <div className="container  pt-10 pl-4">
