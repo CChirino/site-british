@@ -34,6 +34,9 @@ const HomePaisaje = () => {
                   <a href="#arte-paisaje">
                     <animated.h2 style={textAnimation}>Arte y paisaje</animated.h2>
                   </a>
+                  <a href="#mapa-paisaje">
+                    <animated.h2 style={textAnimation}>Mapa</animated.h2>
+                  </a>
               </div>
             </div>
           </div>

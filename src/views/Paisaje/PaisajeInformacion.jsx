@@ -98,7 +98,6 @@ const PaisajeInformacion = () => {
       <div className="bg-zinc-50" id="mapa-paisaje">
         <img src="/static/images/paisaje.png"  className="h-1/2  pt-16" alt="" />
       </div>
-
       <div className="bg-neutral-500 pt-10" id="listas">
         <div className="flex ">
         <div className="w-3/5 text-neutral-500 pt-6 text-left pr-16 ml-16">
