@@ -114,6 +114,67 @@ const ArquitecturaInformacion = () => {
             </div>
         </div>
       </div>
+
+      <div className="bg-neutral-500 pt-10" id="listas">
+        <div className="flex ">
+        <div className="w-3/5 text-neutral-500 pt-6 text-left pr-16 ml-16">
+                 <div className="container text-white ">
+                    <h2 className="pb-7 subtitle-section">Cuerpos Bajos</h2>
+                    <ul>
+                      <li>Edificio del Rectorado</li>
+                      <li>Edificio del Museo</li>
+                      <li>Edificio de Comunicaciones</li>
+                      <li>Instituto de Medicina Experimental</li>
+                      <li>Instituto Anatomico</li>
+                      <li>Instituto de Medicina Tropical</li>
+                      <li>Instituto Anatomópatologico</li>
+                      <li>Escuela de Enfermería</li>
+                      <li>Escuela Técnica Industrial</li>
+                      <li>Facultad de Humanidades</li>
+                      <li>Edificio Basico de Ingenería</li>
+                      <li>Escuela de Ingeniería, Química, Petróleo y Geología</li>
+                      <li>Escuela de Ingeniería Eléctrica</li>
+                      <li>Laboratorio de Física</li>
+                      <li>Escuela de Ingeniería Sanitaria</li>
+                      <li>Escuela de Ingeniería Metalúrgica</li>
+                      <li>Laboratorio de Termo máquinas</li>
+                      <li>Escuela de Ingeniería Mecánica</li>
+                      <li>Residencias Estudiantiles</li>
+                      <li>Comedor Universitario</li>
+                    </ul>
+                 </div>
+            </div>
+            <div className="w-3/5 text-neutral-500 pt-6 text-left pr-16 ml-16">
+                 <div className="container text-white ">
+                    <h2 className="pb-7 subtitle-section">Torres con base</h2>
+                    <ul>
+                      <li>Biblioteca Central</li>
+                      <li>Facultad de Arquitectura</li>
+                      <li>Facultad de Odontología</li>
+                      <li>Facultad de Farmacia</li>
+                      <li>Facultad de Ciencias Económicas y Sociales</li>
+                      <li>Hospital Clínico Universitario</li>
+                    </ul>
+                 </div>
+                 <div className="container text-white pt-6 ">
+                    <h2 className="pb-7 subtitle-section">Volumes singulares</h2>
+                    <ul>
+                      <li>Torre del Reloj</li>
+                      <li>Torre de Enfriamiento</li>
+                      <li>Paraninfo</li>
+                      <li>Aula Magna</li>
+                      <li>Complejo de Piscinas</li>
+                      <li>Estadio Olímpico</li>
+                      <li>Estadio de Beisbol</li>
+                      <li>Gimnasio Cubierto</li>
+                      <li>Cancha de Honor</li>
+                      <li>Biblioteca y Auditorio de la Facultad de Ingeniería</li>
+                      <li>Instituto Botánico</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+      </div>
     </div>
     </div>
   );
