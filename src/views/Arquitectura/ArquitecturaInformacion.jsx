@@ -15,22 +15,22 @@ const ArquitecturaInformacion = () => {
                  <div className="container">
                     <h2 className="pb-7 subtitle-section">El diseño de la CUC</h2>
                     <p className="pt-1 pb-3">
-                    Urbanamente el campus nace y se organiza en base a dos trazados diferenciados, uno de orden simétrico que contemplaba el sector de medicina a partir del Hospital Clínico. Y el segundo con una disposición distinta en la cual Villanueva rompe con el esquema simétrico inicial, e introduce edificaciones particulares destinadas a aulas, anfiteatros, talleres, bibliotecas y/o estadios deportivos, dispuestas bajo lógicas formales propias de las ideas urbanas de la modernidad.
+                    El campus inicialmente, guarda un orden clásico, academicista. Posteriormente, desarrolla un esquema moderno temprano que despliega ensayos sobre el estilo internacional, tratados sobre la luz y la sombra, incorporando el arte y consiguiendo la plenitud a partir de las años 50, con un lenguaje absolutamente moderno.                     
                     </p>
                     <p className="pt-1 pb-3">
-                    “Pasa de un plan axial a uno háptico” MOMA Learning from latinamerica, Barry Bergdol
+                    Villanueva, dispone en el terreno algunos edificios con basamento y torres verticales, mientras otros en bloques horizontales siempre orientados hacia la iluminación más favorable.                    
                     </p>
                     <p className="pt-1 pb-3">
-                    Para Villanueva, la Ciudad Universitaria se transformo en el laboratorio donde explorar sus ideas sobre la arquitectura moderna. El campus resulta entonces formas en concreto armado, con grandes planos de mosaico italiano de colores sólidos o murales de artistas locales y extranjeros, que se combinan con innovaciones que abarcan desde plazas cubiertas, aceras techadas, jardines internos, espacios intermedios de transición entre el afuera y el adentro, además de cerramientos de bloques calados—, que permiten la fluidez en la lectura del espacio, los espacios intermedios, y la integración de la luz y la vegetación.                    
+                    En contraste, con formas particulares aparecen edificios singulares, dentro de un urbanismo de usos separados, aceras y plazas cubiertas sobre el verde continuo.                    
                     </p>
                     <p className="pt-1 pb-11">
-                    Aquí experimentó con la luz como otro elemento constructivo, con el cual dibuja horizontalmente separaciones entre techos de distintas alturas; corta diagonalmente pérgolas sesgadas; utiliza verticalmente su caída como pozos para jardines interiores y la recorta en formas diversas en muros calados. 
+                    Los patios de luz, los muros calados, los parasoles, son parte de los recursos utilizados en este laboratorio constructivo para conseguir mejores respuestas arquitectónicas a los desafíos del clima tropical.                    
                     </p>
                  </div>
             </div>
         </div>
       </div>
-      <div className="bg-zinc-50" id="bloques">
+      <div className="bg-zinc-50" id="bloques-1">
         <div className="flex ">
             <div className="w-2/5">
                 <div className="container pt-6 pl-24 pr-10">
@@ -39,16 +39,19 @@ const ArquitecturaInformacion = () => {
             </div>
             <div className="w-3/5 text-neutral-500 pt-6 text-left pr-16 ml-16">
                  <div className="container">
-                    <h2 className="pb-7 subtitle-section">Bloques Horizontales</h2>
+                    <h2 className="pb-7 subtitle-section">Torres con base</h2>
+                    <p className="pt-1 pb-3">
+                    Dentro del conjunto universitario sobresalen algunas edificaciones en el perfil urbano del campus. Son puntos focales que se distinguen por su visibilidad y que no se repiten en cuanto a su cromatismo, orientación, base, cuerpo y terminación. Es allí donde pueden diferenciarse los ensayos y las búsquedas del maestro Villanueva.                
+                    </p>
                     <p className="pt-1 pb-20">
-                    La mayoría de las edificaciones del campus son una composición de edificaciones horizontales que buscan dar una escala humana a la inmensidad del campus. Usualmente se trata de paralelepípedos alargados, en algunos casos formando un conjunto de piezas individuales y autónomas como los institutos médicos, en otros casos estas piezas se interconectan como es el caso de la facultad de humanidades. En otras oportunidades el cuerpo bajo carga con los usos y dinámicas más publicas mientras que la torre con la cual se mezcla se reserva aquellos más privados, esto sucede en el caso de la biblioteca central.                     
+                    Otros dos volúmenes de altura forman parte del campus, aun cuando no están formado por un basamento acompañado de una torre. Siendo estos el Hospital Universitario y la Facultad de Ciencias Económicas y Sociales, esta última diseñada por Villanueva, pero completada por Gorka Dorronsoro.                    
                     </p>
                  </div>
             </div>
         </div>
       </div>
       <div className="bg-zinc-50" id="bloques-2">
-        <div className="flex">
+        <div className="flex ">
             <div className="w-2/5">
                 <div className="container pt-6 pl-24 pr-10">
                     <img src="/static/images/DSC02765.JPG"  className="dh-1/2 pb-5 pt-5" alt="" />
@@ -56,12 +59,15 @@ const ArquitecturaInformacion = () => {
             </div>
             <div className="w-3/5 text-neutral-500 pt-6 text-left pr-16 ml-16">
                  <div className="container">
-                    <h2 className=" pb-7 subtitle-section">Bloques verticales</h2>
-                    <p className="pt-1 pb-1">
-                    Dentro del conjunto urbano, Villanueva diseño varios volumenes que funcionan como elementos de composición a gran escala, son puntos focales de las visuales y por eso son piezas que se alzan con una estética individual. Las facultades de odontología, farmacia y arquitectura cubren sus fachadas con parasoles, mientras que la torre de biblioteca resulta en un volumen ciego en todos excepto su último piso, que parece más un monolito rojo que un edificio administrativo.
+                    <h2 className="pb-7 subtitle-section">Cuerpos Bajos</h2>
+                    <p className="pt-1 pb-3">
+                    Muchas de las edificaciones del campus son edificaciones horizontales bajas, destinadas a aulas, que dan una escala humana grata junto a las aceras cubiertas que los interconectan, y protegen al caminante de excesos de luminosidad o lluvia.                    
+                    </p>
+                    <p className="pt-1 pb-3">
+                    Usualmente, son edificaciones alargadas, formando patios paralelos entre sí como pozos de luz, para ventilar e iluminar las aulas. Éstas, tienen una conexión plena con el verde exterior a través de cerramientos transparentes que van de piso a techo y de pared a pared.                    
                     </p>
                     <p className="pt-1 pb-20">
-                    Las torres se convirtieron en una exploración espacial, la relación de cada una con el suelo, el trabajo de sus cuatro fachadas en la mayoría de los casos todas distintas, la distinción de sus módulos de circulación verticales que sobresalen a la pureza del paralelepípedo como esculturas adosadas. Fue la intención del arquitecto de no realizar volúmenes repetitivos de piso sobre piso siempre idénticos. 
+                    Los edificios tienen rampas con estructuras de soporte esculturales, conjugadas con murales sobre superficies verticales de mosaiquillo, de teselas vítreas, y paredes caladas que permean la luz y junto con el desplazamiento de los caminantes se superponen en las distintas superficies.                    
                     </p>
                  </div>
             </div>
@@ -76,9 +82,18 @@ const ArquitecturaInformacion = () => {
             </div>
             <div className="w-3/5 text-neutral-500	pt-6 text-left pr-16 ml-16">
                  <div className="container pb-10">
-                    <h2 className=" pb-7 subtitle-section">Piezas singulares (auditorios, bibliotecas, deportivos, otros)</h2>
+                    <h2 className=" pb-7 subtitle-section">Singulares</h2>
+                    <p className="pt-1 pb-1">
+                    Aquellas piezas con formas particulares resaltan en el contexto de edificios bajos con formas regulares son edificios singulares que por lo general identifican usos especiales con estructuras y formas diferentes.                    
+                    </p>
+                    <p className="pt-1 pb-1">
+                    La exploración de materiales nuevos como el concreto y su plasticidad, llevaron al maestro Villanueva a diseñar nuevas formas arquitectónicas explorando estructuras extremas, como los estadios de futbol y beisbol, con un resultado formal muy atractivo.                    
+                    </p>
+                    <p className="pt-1 pb-1">
+                    También auditorios con costillares a la vista, como las estructuras del techo del Aula Magna que hace un alarde estructural y de la tectónica del material. Techos con curvaturas especiales como la biblioteca de Ingeniería o elementos abovedados como el domo en el patio de la escuela de enfermería.                    
+                    </p>
                     <p className="pt-1 pb-20">
-                    La exploración de morfologías llevo a Villanueva a diseñar estadios y auditorios, bibliotecas, cafeterías e institutos, cuyos volúmenes juegan y rompen la noción del paralelepípedo puro. Estas piezas con formas particulares a su vez resaltan sus estructuras como exoesqueletos, o realizan juegos compositivos de techos y fachadas con obras de arte para dar aún mayor peso a su uso singular y separado del entorno. El auditorio de Humanidades o la biblioteca principal de Ingeniería son prueba de ello como piezas insignes dentro del conjunto de cuerpos bajos que conforman sus respectivas facultades.
+                    Todos son muestra del abanico de formas en lo que se puede considerar un laboratorio de un lenguaje arquitectónico personal.                    
                     </p>
                  </div>
             </div>

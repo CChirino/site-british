@@ -31,14 +31,14 @@ const HomeArquitectura = () => {
                   <a href="#cuc">
                     <animated.h2 style={textAnimation}>El diseño de la CUC</animated.h2>            
                   </a>
-                  <a href="#bloques">
-                    <animated.h2 style={textAnimation}>Bloques Horizontales</animated.h2>
+                  <a href="#bloques-1">
+                    <animated.h2 style={textAnimation}>Torres con base</animated.h2>
                   </a>
                   <a href="#bloques-2">
-                    <animated.h2 style={textAnimation}>Bloques verticales</animated.h2>
+                    <animated.h2 style={textAnimation}>Cuerpos Bajos</animated.h2>
                   </a>
                   <a href="#piezas">
-                    <animated.h2 style={textAnimation}>Piezas singulares</animated.h2>
+                    <animated.h2 style={textAnimation}>Singulares</animated.h2>
                   </a>
                   <a href="#mapa-arquitectura">
                     <animated.h2 style={textAnimation}>Mapa</animated.h2>
