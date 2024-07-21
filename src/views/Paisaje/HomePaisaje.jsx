@@ -26,16 +26,13 @@ const HomePaisaje = () => {
             <div className="w-2/5 text-right">
               <div className="container pr-32 pt-32">
                   <a href="#paisajista">
-                    <animated.h2 style={textAnimation}>Villanueva el paisajista</animated.h2>            
-                  </a>
-                  <a href="#patio">
-                    <animated.h2 style={textAnimation}>Del patio de jardín colonial al bosque tropical</animated.h2>
+                    <animated.h2 style={textAnimation}>Paisaje</animated.h2>            
                   </a>
                   <a href="#jardin">
                     <animated.h2 style={textAnimation}>Jardín Botánico</animated.h2>
                   </a>
-                  <a href="mapa-paisaje">
-                    <animated.h2 style={textAnimation}>Jardín Botánico</animated.h2>
+                  <a href="#arte-paisaje">
+                    <animated.h2 style={textAnimation}>Arte y paisaje</animated.h2>
                   </a>
               </div>
             </div>
