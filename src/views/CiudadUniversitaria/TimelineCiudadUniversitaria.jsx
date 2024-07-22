@@ -64,83 +64,83 @@ const Timeline = () => {
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_11-42.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G12.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G15.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_12-43.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G13.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G2.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_13-44.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G14.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G17.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_14-45.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G15.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G19.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_15-46.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G16.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G21.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_16-47.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G17.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G18.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_17-48.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G18.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G23.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_18-49.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G19.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G20.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_19-50.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G20.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G22.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_20-51.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G21.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G24.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_21-52.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G22.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G25.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_22-53.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G23.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G29.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_23-54.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G24.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G30.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_24-55.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G25.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G27.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_25-56.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G26.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G3.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_26-57.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G27.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G28.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_27-58.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G28.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G26.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_28-59.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G29.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G4.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_29-60.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G30.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G31.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_30-61.png",
     },
     {
-      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G31.png",
+      backgroundImageHovered: "/static/images/linea-tiempo-cuc/CUC_G5.png",
       backgroundImage: "/static/images/linea-tiempo-cuc/CUC_31-62.png",
     },
   ];
@@ -152,12 +152,12 @@ const Timeline = () => {
       <div className="text-white text-center pt-4 pb-5">
         <h1 className="pb-7 subtitle-section">Cronología</h1>
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap principios-images">
         {visibleSections.map((section, index) => (
           <div key={index} className="bg-white w-1/6">
             <a href={`#${index}`}>
-              <img
-                src={activeIndex === index ? section.backgroundImageHovered : section.backgroundImage}
+            <img
+                src={section.backgroundImageHovered}
                 alt=""
                 className="principios-images"
               />
