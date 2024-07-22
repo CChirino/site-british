@@ -149,42 +149,18 @@ const Timeline = () => {
 
   return (
     <div className="relative" id="cronologia-cuc" style={{ backgroundColor: "rgb(189 189 189)" }}>
-          <div className="text-white text-center pt-4 pb-5">
-            <h1 className="pb-7 subtitle-section ">Cronología</h1>
-        </div>
+      <div className="text-white text-center pt-4 pb-5">
+        <h1 className="pb-7 subtitle-section">Cronología</h1>
+      </div>
       <div className="flex flex-wrap">
         {visibleSections.map((section, index) => (
-          <div
-            key={index}
-            className={`bg-white w-1/6 ${
-              activeIndex === index ? "hovered-column" : ""
-            }`}
-            onMouseEnter={() => {
-              if (activeIndex !== index) setActiveIndex(index);
-            }}
-            onMouseLeave={() => {
-              if (activeIndex !== index) setActiveIndex(null);
-            }}
-          >
+          <div key={index} className="bg-white w-1/6">
             <a href={`#${index}`}>
-              {activeIndex === index ? (
-                <div>
-                  <div className="relative">
-                    <div className="absolute w-full h-1 bg-gray-500 top-1/2 transform -translate-y-1/2" />
-                  </div>
-                  <img
-                    src={section.backgroundImageHovered}
-                    alt=""
-                    className="principios-images-hovered"
-                  />
-                </div>
-              ) : (
-                <img
-                  src={section.backgroundImage}
-                  alt=""
-                  className="principios-images"
-                />
-              )}
+              <img
+                src={activeIndex === index ? section.backgroundImageHovered : section.backgroundImage}
+                alt=""
+                className="principios-images"
+              />
             </a>
           </div>
         ))}
@@ -193,7 +169,7 @@ const Timeline = () => {
         <button onClick={handlePrev} disabled={activeIndex === 0} className="mr-2">
           <FaChevronLeft />
         </button>
-        <button onClick={handleNext} disabled={activeIndex === sections.length - 1} className="ml-2">
+        <button onClick={handleNext} disabled={activeIndex === sections.length - 6} className="ml-2">
           <FaChevronRight />
         </button>
       </div>

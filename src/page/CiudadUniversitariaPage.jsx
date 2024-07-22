@@ -11,7 +11,7 @@ import ScrollToTop from '../components/ScrollToTop';
 import FooterHome from '../components/FooterHome';
 import HeaderHome from '../components/HeaderHome';
 import MapComponent from '../components/MapComponent';
-
+import Slider from '../views/CiudadUniversitaria/Timeline';
 const CiudadUniversitariaPage = () => {
   const [loading, setLoading] = useState(true);
 

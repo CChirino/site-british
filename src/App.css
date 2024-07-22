@@ -340,3 +340,11 @@ div a {
 .parallax-container {
   opacity: 0.25;
 }
+
+.principios-images {
+  transition: transform 0.3s ease-in-out;
+}
+
+.principios-images:hover {
+  transform: scale(1.05);
+}
